@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="676806b1-03c6-476a-afa4-d36d91c27aff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DocumentIndexer.java" afterPath="$PROJECT_DIR$/src/DocumentIndex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project1/DocumentQueryExecutor.class" afterPath="$PROJECT_DIR$/out/production/Project1/DocumentQueryExecutor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DocumentQueryExecutor.java" afterPath="$PROJECT_DIR$/src/DocumentQueryExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DocumentIndex.java" afterPath="$PROJECT_DIR$/src/DocumentIndex.java" />
     </list>
     <ignored path="Project1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DocumentQueryExecutor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DocumentQueryExecutor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DocumentQueryExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -50,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DocumentIndex.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DocumentIndex.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DocumentIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="88" column="29" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+            <state relative-caret-position="526">
+              <caret line="155" column="50" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -647,12 +644,20 @@
       <option name="presentableId" value="Default" />
       <updated>1462547342279</updated>
       <workItem from="1462547343624" duration="9138000" />
-      <workItem from="1462563084506" duration="4525000" />
+      <workItem from="1462563084506" duration="7975000" />
     </task>
+    <task id="LOCAL-00001" summary="Complete (unchecked)">
+      <created>1462567912922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1462567912922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13663000" />
+    <option name="totallyTimeSpent" value="17113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="2576" height="1416" extended-state="6" />
@@ -677,7 +682,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14731099" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3086516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -697,15 +702,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete (unchecked)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete (unchecked)" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="index" language="JAVA" custom="" />
-        <watch expression="file.toPath()" language="JAVA" custom="" />
-        <watch expression="Files.readAllLines(file.getAbsoluteFile().toPath());" language="JAVA" custom="" />
+        <watch expression="everything.toString().replaceAll(System.getProperty(&quot;line.separator&quot;), &quot; &quot;)" language="JAVA" custom="" />
       </configuration>
     </watches-manager>
   </component>
@@ -819,21 +826,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DocumentIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="88" column="29" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DocumentQueryExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DocumentIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="155" column="50" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

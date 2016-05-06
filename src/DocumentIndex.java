@@ -29,10 +29,34 @@ public class DocumentIndex {
             indexDocument(doc);
             number_of_documents++;
         }
+        PrintWriter printer = null;
+        try {
+            FileWriter fw = new FileWriter("index.txt", true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            printer = new PrintWriter(bw);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        for(String stem : index.keySet())
+        {
+            printer.println(stem);
+            for(Map.Entry<Integer, Integer> document : index.get(stem).entrySet())
+            {
+                printer.println(String.format("%d, %d",document.getKey(),document.getValue()));
+            }
+            printer.println();
+        }
+        printer.println();
+        printer.flush();
+        printer.close();
     }
 
     private void indexDocument(File file) {
         int docNumber = Integer.parseInt(new String(file.getName()).replaceAll("[^0-9]+", ""));
+        if(docNumber == 122)
+            System.out.println();
         List<String> doc = new ArrayList<>();
         List<String> words = new ArrayList<>();
         try
@@ -41,10 +65,10 @@ public class DocumentIndex {
             StringBuilder everything = new StringBuilder();
             String line;
             while( (line = in.readLine()) != null) {
-                everything.append(line);
+                everything.append(line+" ");
             }
             docSentences.put(docNumber, everything.toString().substring(0,everything.toString().indexOf('.')+1));
-            words.addAll(Arrays.asList(everything.toString().replaceAll("[^a-zA-Z ]", "").toLowerCase().replaceAll("-"," ").replaceAll("\\p{Punct}+", "").replaceAll(System.getProperty("line.separator"), "").trim().split("\\s+")));
+            words.addAll(Arrays.asList(everything.toString().replaceAll("-"," ").replaceAll(System.getProperty("line.separator"), " ").replaceAll("[^a-zA-Z ]", "").toLowerCase().replaceAll("\\p{Punct}+", "").trim().split("\\s+")));
         }
         catch(Exception e)
         {
@@ -80,7 +104,7 @@ public class DocumentIndex {
     }
 
     public void query(String q) {
-        List<String> keywords = Arrays.asList(q.replaceAll("[^a-zA-Z ]", "").toLowerCase().replaceAll("-"," ").replaceAll("\\p{Punct}+", "").replaceAll(System.getProperty("line.separator"), "").trim().split("\\s+"));
+        List<String> keywords = Arrays.asList(q.replaceAll("-"," ").replaceAll(System.getProperty("line.separator"), " ").replaceAll("[^a-zA-Z ]", "").toLowerCase().replaceAll("\\p{Punct}+", "").trim().split("\\s+"));
         TreeMap<Double, Integer> scoredDocuments = new TreeMap<>(Collections.reverseOrder());
         for(int i = 0; i < number_of_documents; i++)
         {
