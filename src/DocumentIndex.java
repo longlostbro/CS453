@@ -104,10 +104,11 @@ public class DocumentIndex {
     }
 
     public void query(String q) {
-        List<String> keywords = Arrays.asList(q.replaceAll("-"," ").replaceAll(System.getProperty("line.separator"), " ").replaceAll("[^a-zA-Z ]", "").toLowerCase().replaceAll("\\p{Punct}+", "").trim().split("\\s+"));
+        ArrayList<String> keywords = new ArrayList<>(Arrays.asList( q.replaceAll("-"," ").replaceAll(System.getProperty("line.separator"), " ").replaceAll("[^a-zA-Z ]", "").toLowerCase().replaceAll("\\p{Punct}+", "").trim().split("\\s+")));
         TreeMap<Double, Integer> scoredDocuments = new TreeMap<>(Collections.reverseOrder());
         for(int i = 0; i < number_of_documents; i++)
         {
+
             scoredDocuments.put(score(keywords,i),i);
         }
         printResults(q.trim(), scoredDocuments);
@@ -138,9 +139,10 @@ public class DocumentIndex {
         printer.close();
     }
 
-    public double score(List<String> query, int document_number)
+    public double score(ArrayList<String> query, int document_number)
     {
         double score = 0;
+        query.removeAll(stopWords);
         for(String word : query)
         {
             score += getTF(word, document_number) * getIDF(word);
