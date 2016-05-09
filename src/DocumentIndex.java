@@ -12,12 +12,14 @@ public class DocumentIndex {
     PorterStemmer stemmer;
     int number_of_documents;
     TreeMap<String,HashMap<Integer,Integer>> index;
+    HashMap<Integer, Integer> maxFrequency;
     HashMap<Integer,String> docSentences = new HashMap<>();
     public DocumentIndex()
     {
         stopWords = new StopWords().getStopWords();
         stemmer = new PorterStemmer();
         index = new TreeMap<>();
+        maxFrequency = new HashMap<>();
         number_of_documents = 0;
     }
 
@@ -54,8 +56,9 @@ public class DocumentIndex {
     }
 
     private void indexDocument(File file) {
+        int max_frequency = 0;
         int docNumber = Integer.parseInt(new String(file.getName()).replaceAll("[^0-9]+", ""));
-        if(docNumber == 122)
+        if(docNumber == 91)
             System.out.println();
         List<String> doc = new ArrayList<>();
         List<String> words = new ArrayList<>();
@@ -85,6 +88,8 @@ public class DocumentIndex {
             {
                 HashMap<Integer, Integer> docs = new HashMap<>();
                 docs.put(docNumber, 1);
+                if(max_frequency < 1)
+                    max_frequency = 1;
                 index.put(stem, docs);
             }
             else
@@ -93,13 +98,19 @@ public class DocumentIndex {
                 if(!docs.containsKey(docNumber))
                 {
                     docs.put(docNumber, 1);
+                    if(max_frequency < 1)
+                        max_frequency = 1;
                 }
                 else
                 {
-                    docs.put(docNumber,docs.get(docNumber)+1);
+                    int frequency = docs.get(docNumber)+1;
+                    docs.put(docNumber,frequency);
+                    if(max_frequency < frequency)
+                        max_frequency = frequency;
                 }
             }
         }
+        maxFrequency.put(docNumber,max_frequency);
         //System.out.println("Document: "+docNumber + " Words: "+words.size());
     }
 
@@ -109,7 +120,7 @@ public class DocumentIndex {
         for(int i = 0; i < number_of_documents; i++)
         {
 
-            scoredDocuments.put(score(keywords,i),i);
+            scoredDocuments.put(score(keywords,i+1),i+1);
         }
         printResults(q.trim(), scoredDocuments);
     }
@@ -155,7 +166,8 @@ public class DocumentIndex {
         String stem = stemmer.stem(word);
         if(index.containsKey(stem) && index.get(stem).containsKey(docNumber))
         {
-            return index.get(stem).get(docNumber);
+            double doc = (double)index.get(stem).get(docNumber)/(double)maxFrequency.get(docNumber);
+            return doc;
         }
         return 0;
     }
@@ -166,7 +178,7 @@ public class DocumentIndex {
         if(index.containsKey(stem))
         {
             double n_sub_w = index.get(stem).keySet().size();
-            return Math.log(number_of_documents / n_sub_w);
+            return (Math.log(number_of_documents / n_sub_w))/Math.log(2);
         }
         return 0;
     }
