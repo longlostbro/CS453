@@ -43,12 +43,14 @@ public class DocumentIndex {
         }
         for(String stem : index.keySet())
         {
-            printer.println(stem);
+            //printer.println(stem);
+            int frequency = 0;
             for(Map.Entry<Integer, Integer> document : index.get(stem).entrySet())
             {
-                printer.println(String.format("%d, %d",document.getKey(),document.getValue()));
+                frequency += document.getValue();
             }
-            printer.println();
+            printer.println(String.format("%s\t%d",stem,frequency));
+            //printer.println();
         }
         printer.println();
         printer.flush();
@@ -78,11 +80,19 @@ public class DocumentIndex {
             e.printStackTrace();
         }
         words.remove("");
-        words.removeAll(stopWords);
+        //words.removeAll(stopWords);
         for(int i = 0; i < words.size(); i++)
         {
-            String stem = stemmer.stem(words.get(i));
-            words.set(i,stem);
+            String stem;
+            if(!stopWords.contains(words.get(i)))
+            {
+                stem = stemmer.stem(words.get(i));
+                words.set(i, stem);
+            }
+            else
+            {
+                stem = words.get(i);
+            }
 
             if(!index.containsKey(stem))
             {
@@ -116,16 +126,29 @@ public class DocumentIndex {
 
     public void query(String q) {
         ArrayList<String> keywords = new ArrayList<>(Arrays.asList( q.replaceAll("-"," ").replaceAll(System.getProperty("line.separator"), " ").replaceAll("[^a-zA-Z ]", "").toLowerCase().replaceAll("\\p{Punct}+", "").trim().split("\\s+")));
-        TreeMap<Double, Integer> scoredDocuments = new TreeMap<>(Collections.reverseOrder());
+        Map<Integer, Double> scoredDocuments = new TreeMap<>();
         for(int i = 0; i < number_of_documents; i++)
         {
 
-            scoredDocuments.put(score(keywords,i+1),i+1);
+            scoredDocuments.put(i+1, score(keywords,i+1));
         }
-        printResults(q.trim(), scoredDocuments);
+        SortedSet<Map.Entry<Integer,Double>> sorted = entriesSortedByValues(scoredDocuments);
+        printResults(q.trim(), sorted);
     }
-
-    private void printResults(String query, TreeMap<Double, Integer> scoredDocuments) {
+    static <K,V extends Comparable<? super V>>
+    SortedSet<Map.Entry<K,V>> entriesSortedByValues(Map<K,V> map) {
+        SortedSet<Map.Entry<K,V>> sortedEntries = new TreeSet<Map.Entry<K,V>>(
+                new Comparator<Map.Entry<K,V>>() {
+                    @Override public int compare(Map.Entry<K,V> e1, Map.Entry<K,V> e2) {
+                        int res = -1*e1.getValue().compareTo(e2.getValue());
+                        return res != 0 ? res : 1;
+                    }
+                }
+        );
+        sortedEntries.addAll(map.entrySet());
+        return sortedEntries;
+    }
+    private void printResults(String query, SortedSet<Map.Entry<Integer, Double>> scoredDocuments) {
         PrintWriter printer = null;
         try {
             FileWriter fw = new FileWriter("results.txt", true);
@@ -139,9 +162,9 @@ public class DocumentIndex {
         printer.println(String.format("Query: %s",query));
         printer.println("Ranked Documents\tDocument ID\tFirst Sentence\tRanking Score");
         int i = 1;
-        for(Map.Entry<Double,Integer> entry : scoredDocuments.entrySet())
+        for(Map.Entry<Integer,Double> entry : scoredDocuments)
         {
-            printer.println(String.format("%d\t%d\t%s\t%f", i++, entry.getValue(), docSentences.get(entry.getValue()), entry.getKey()));
+            printer.println(String.format("%d\t%d\t%s\t%f", i++, entry.getKey(), docSentences.get(entry.getKey()), entry.getValue()));
             if(i == 11)
                 break;
         }
@@ -163,6 +186,8 @@ public class DocumentIndex {
 
     public double getTF(String word, int docNumber)
     {
+        if(docNumber == 33)
+            System.out.print("");
         String stem = stemmer.stem(word);
         if(index.containsKey(stem) && index.get(stem).containsKey(docNumber))
         {
