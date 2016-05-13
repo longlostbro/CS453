@@ -57,6 +57,8 @@ public class DocumentIndex {
         printer.close();
     }
 
+    int wordfreq = 0;
+    int uniquecount = 0;
     private void indexDocument(File file) {
         int max_frequency = 0;
         int docNumber = Integer.parseInt(new String(file.getName()).replaceAll("[^0-9]+", ""));
@@ -80,40 +82,24 @@ public class DocumentIndex {
             e.printStackTrace();
         }
         words.remove("");
+        PrintWriter printer = null;
+        try {
+            FileWriter fw = new FileWriter("unique.txt", true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            printer = new PrintWriter(bw);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         //words.removeAll(stopWords);
-        String previousWord = words.get(0);
-        String word = previousWord;
-        if(!index.containsKey(word))
+        for(int i = 0; i < words.size(); i++)
         {
-            HashMap<Integer, Integer> docs = new HashMap<>();
-            docs.put(docNumber, 1);
-            if(max_frequency < 1)
-                max_frequency = 1;
-            index.put(word, docs);
-        }
-        else
-        {
-            HashMap<Integer, Integer> docs = index.get(word);
-            if(!docs.containsKey(docNumber))
-            {
-                docs.put(docNumber, 1);
-                if(max_frequency < 1)
-                    max_frequency = 1;
-            }
-            else
-            {
-                int frequency = docs.get(docNumber)+1;
-                docs.put(docNumber,frequency);
-                if(max_frequency < frequency)
-                    max_frequency = frequency;
-            }
-        }
-        for(int i = 1; i < words.size(); i++)
-        {
-            String stem = previousWord+" "+words.get(i);
-            previousWord = words.get(i);
+            String stem = words.get(i);
+            wordfreq++;
             if(!index.containsKey(stem))
             {
+                uniquecount++;
                 HashMap<Integer, Integer> docs = new HashMap<>();
                 docs.put(docNumber, 1);
                 if(max_frequency < 1)
@@ -137,34 +123,10 @@ public class DocumentIndex {
                         max_frequency = frequency;
                 }
             }
-            stem = words.get(i);
-            previousWord = words.get(i);
-            if(!index.containsKey(stem))
-            {
-                HashMap<Integer, Integer> docs = new HashMap<>();
-                docs.put(docNumber, 1);
-                if(max_frequency < 1)
-                    max_frequency = 1;
-                index.put(stem, docs);
-            }
-            else
-            {
-                HashMap<Integer, Integer> docs = index.get(stem);
-                if(!docs.containsKey(docNumber))
-                {
-                    docs.put(docNumber, 1);
-                    if(max_frequency < 1)
-                        max_frequency = 1;
-                }
-                else
-                {
-                    int frequency = docs.get(docNumber)+1;
-                    docs.put(docNumber,frequency);
-                    if(max_frequency < frequency)
-                        max_frequency = frequency;
-                }
-            }
+            printer.println(String.format("%s\t%s",wordfreq, uniquecount));
         }
+        printer.flush();
+        printer.close();
         maxFrequency.put(docNumber,max_frequency);
         //System.out.println("Document: "+docNumber + " Words: "+words.size());
     }
