@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676806b1-03c6-476a-afa4-d36d91c27aff" name="Default" comment="">
+    <list default="true" id="676806b1-03c6-476a-afa4-d36d91c27aff" name="Default" comment="unique word count">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unique.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.txt" afterPath="$PROJECT_DIR$/index.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.txt" afterPath="$PROJECT_DIR$/results.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DocumentIndex.java" afterPath="$PROJECT_DIR$/src/DocumentIndex.java" />
     </list>
     <ignored path="Project1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -837,7 +835,7 @@
       <workItem from="1462547343624" duration="9138000" />
       <workItem from="1462563084506" duration="9307000" />
       <workItem from="1462816546720" duration="2541000" />
-      <workItem from="1463106498600" duration="3779000" />
+      <workItem from="1463106498600" duration="4405000" />
     </task>
     <task id="LOCAL-00001" summary="Complete (unchecked)">
       <created>1462567912922</created>
@@ -874,11 +872,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463114756165</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="unique word count">
+      <created>1463115649764</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1463115649764</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24765000" />
+    <option name="totallyTimeSpent" value="25391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2553" y="0" width="2574" height="1407" extended-state="0" />
@@ -930,7 +935,8 @@
     <MESSAGE value="remove stop words from score" />
     <MESSAGE value="bigram and words code" />
     <MESSAGE value="added text documents" />
-    <option name="LAST_COMMIT_MESSAGE" value="added text documents" />
+    <MESSAGE value="unique word count" />
+    <option name="LAST_COMMIT_MESSAGE" value="unique word count" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
