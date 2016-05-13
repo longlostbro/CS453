@@ -1,520 +1,390 @@
 Query: killing incident
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	4.330917
-2	33	A drifter who killed three friends was jailed for life at Reading Crown Court.	2.549557
-3	106	A CONVICTED sex attacker who was cleared of killing and mutilating a prostitute six years ago was jailed for life at the Old Bailey yesterday for murdering another woman.	2.549557
-4	32	DRUG-CRAZED axeman Alan Hobbs who butchered three friends in a 24-hour frenzy was jailed for life yesterday.	2.185335
-5	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	2.165458
-6	26	Police officers beat up a man in an "outrageous" display of brutality, then lied about the incident on oath, the old Bailey heard yesterday.	1.924852
-7	28	 AN AXE monster who slaughtered a charity worker and her two lovers in scenes of 'unimaginable savagery' was jailed for life yesterday.	1.752821
-8	34	A DRIFTER who killed three friends in a savage axe attack was jailed for life yesterday.	1.699705
-9	93	NAZI nailbomber David Copeland had a death wish from the age of 14, a court heard yesterday.	1.699705
-10	101	A BRUTAL sex monster dubbed by police a modern Jack the Ripper was jailed for life yesterday.	1.699705
+1	93	NAZI nailbomber David Copeland had a death wish from the age of 14, a court heard yesterday.	0.608936
+2	103	AN EVIL Ripper-style killer, jailed for life yesterday, is to be questioned by police probing unsolved attacks on women all over the country.	0.405957
+3	104	A LORRY driver jailed for the sadistic murder of a prostitute yesterday may be a second Yorkshire Ripper, police believe.	0.360851
+4	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	0.347963
+5	31	A DRIFTER who killed three friends in horrific axe and knife attacks was given three life sentences yesterday.	0.256394
+6	102	I WATCHED shambling 19stone giant David Smith shuffle out of the Old Bailey six years ago - a free man.	0.152234
+7	111	The US government was yesterday ordered to provide further information about its reasons for seeking the extradition of two Egyptians arrested in connection with the bombing of American embassies in Africa last year.	0.124910
+8	124	THE FAMILY of a British Backpacker killed at Bondi Beach broke down in court yesterday after they watched a Sydney jury clear his attacker of murder.	0.124910
+9	35	A drifter who killed three friends in an "apparently motiveless" axe attack was given three life sentences yesterday.	0.108255
+10	30	CRAZED killer Alan Hobbs, who hacked his lover, her boyfriend and another man to death, was given three life sentences yesterday.	0.090213
 
 Query: suspect charged with murder
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	47	ROBINA Hashim, 29, was remanded in custody by Burnley, Lancs, JPs yesterday charged with murdering her baby daughter.	4.771950
-2	49	THE MOTHER of a four-month-old girl whose body was found in a canal has been charged with her baby's murder.	4.771950
-3	85	 Thomas AlIsop, 45, of Ludlow Square in north Belfast, appeared in court yesterday charged with the murder of Mr Bennett.	4.771950
-4	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	2.549557
-5	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	2.549557
-6	11	An executive accused of having sex with a stranger on board an American Airlines flight from Dallas to Manchester last October was sent for trial on April 3.	2.549557
-7	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	2.549557
-8	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	2.549557
-9	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	2.549557
-10	77	Ian Beckett, 52, the Deputy Chief Constable of Surrey Police, has been remanded by London magistrates on four charges of indecent assault against two women at the Mount Browne headquarters.	2.549557
+1	109	A MAN jailed for life at the Old Bailey yesterday faces further police investigations into other unsolved attacks on women throughout the UK.	1.041199
+2	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.867665
+3	85	 Thomas AlIsop, 45, of Ludlow Square in north Belfast, appeared in court yesterday charged with the murder of Mr Bennett.	0.867665
+4	59	A SENIOR police officer was accused yesterday of planting evidence on the alleged killer of Joanne Clarke, a British holidaymaker, to protect tourist interests in the Bahamas.	0.743713
+5	140	A former salesman who claimed to be 'the friendly face of home shopping' was yesterday given two life sentences for the murder of a dog breeder and her mother.	0.678642
+6	142	FOUR youths were yesterday convicted of killing a promising A-level student who they beat-up and left in a river to drown after a night club brawl.	0.650749
+7	45	A FATHER, already in jail for attacking his son, received a life sentence for murder yesterday because the toddler died 16 months after the assault.	0.578444
+8	143	A GANG who terrorised a student before throwing him into a river where he drowned were convicted of his killing yesterday.	0.578444
+9	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	0.557785
+10	48	The mother of a baby found dead in a canal in Burnley in Lancashire was yesterday charged with murder.	0.520599
 
 Query: court
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	1.353637
-2	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	1.353637
-3	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	1.353637
-4	85	 Thomas AlIsop, 45, of Ludlow Square in north Belfast, appeared in court yesterday charged with the murder of Mr Bennett.	1.353637
-5	110	TWO Egyptians appeared in court yesterday in London in connection with the bombing of two American embassies in Africa.	1.353637
-6	113	Two Egyptians appeared at Bow Street magistrates' court yesterday in connectionwith the bombings last year of two American embassies in Africa.	1.353637
-7	127	THE TRIAL of a 13-year-old youth accused of killing a boy of nine by setting his petrol-soaked clothes alight collapsed yesterdaywhen the judge ruled that theteenager could not understand the proceedings.	1.353637
-8	144	Three men found guilty of murdering 18-year-old student Jonathan Coles, who was thrown into a river after leaving a Milton Keynes club, were facing life sentences last night.	1.353637
-9	149	A WOMAN doctor who set up a brothel to pay the bills was jailed for three months yesterday.	1.353637
-10	155	Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after being refused cake at Stoke Heath Young Offenders' Institute.	1.353637
+1	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.917814
+2	165	JUDGES yesterday saved the NHS from being "bankrupted" by �1bn-a-year nursing home fees.	0.917814
+3	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	0.688360
+4	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	0.688360
+5	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	0.688360
+6	145	Dwayne Dawkins, 20, Brian Alleyne, 21, and Darren Matthews, 17, were convicted at Luton Crown Court of murdering Jonathan Coles, 18, who drowned in the Ouse in Newport Pagnell after they forced him off a bridge.	0.688360
+7	155	Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after being refused cake at Stoke Heath Young Offenders' Institute.	0.688360
+8	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.550688
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.458907
+10	27	THE man who turned his ex-girlfriend into a human fireball has changed his court plea AGAIN and today faces a 25-year jail sentence.	0.458907
 
 Query: jury sentenced murderer to prison
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	144	Three men found guilty of murdering 18-year-old student Jonathan Coles, who was thrown into a river after leaving a Milton Keynes club, were facing life sentences last night.	4.998720
-2	99	THE father of a young mum butchered by a 19st sex monster last night blasted the legal system for allowing the fiend to remain free for 23 years.	4.953628
-3	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	4.817823
-4	138	A FORMER double-glazing salesman received two life sentences yesterday for the murders of a prize-winning dog breeder and her elderly mother at their isolated farmhouse.	4.540855
-5	51	An 18-year-old won the backing of a high court judge yesterday to keep her new-born baby with her in prison.	4.082989
-6	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	3.517400
-7	143	A GANG who terrorised a student before throwing him into a river where he drowned were convicted of his killing yesterday.	3.447525
-8	121	A MAN accused of murdering British postman Brian Hagland at Sydney's Bondi Beach was cleared yesterday.	3.279726
-9	44	BABY killer Sally Clarke protested her innocence yesterday from her prison cell.	3.050793
-10	123	A MAN who attacked a British postman near Bondi Beach in Sydney has been cleared of his murder.	2.984170
+1	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	1.727844
+2	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	1.186489
+3	109	A MAN jailed for life at the Old Bailey yesterday faces further police investigations into other unsolved attacks on women throughout the UK.	1.041199
+4	44	BABY killer Sally Clarke protested her innocence yesterday from her prison cell.	0.949191
+5	51	An 18-year-old won the backing of a high court judge yesterday to keep her new-born baby with her in prison.	0.949191
+6	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	0.896782
+7	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.867665
+8	85	 Thomas AlIsop, 45, of Ludlow Square in north Belfast, appeared in court yesterday charged with the murder of Mr Bennett.	0.867665
+9	138	A FORMER double-glazing salesman received two life sentences yesterday for the murders of a prize-winning dog breeder and her elderly mother at their isolated farmhouse.	0.790992
+10	59	A SENIOR police officer was accused yesterday of planting evidence on the alleged killer of Joanne Clarke, a British holidaymaker, to protect tourist interests in the Bahamas.	0.743713
 
 Query: movie
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	3.687061
-2	320	BRIDE-TO-be Catherine Zeta Jones was celebrating again yesterday after signing a multi million-pound deal to make up to 12 movies.	3.687061
-3	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	2.458040
-4	115	JAMES Bond star Pierce Brosnan plants a kiss on fiancee Keely Shaye-Smith at last night's British premiere of his new 007 movie.	2.212236
-5	86	SKY Television has scooped the rights to screen the Blackadder movie before the BBC.	1.843530
-6	183	WHILE Kate is canoodling in Thailand, her tramp-like ox Johnny Depp is in London for the opening of his new film Sleepy Hollow.	1.843530
-7	275	ALL Saint Nicole Appleton is to go topless in her movie debut, according to her big sister Natalie.	1.843530
-8	312	THOMAS The Tank Engine is being made into a blockbuster movie.	1.843530
-9	114	HERE'S Pierce Brosnan with the hottest trio of Bond girls ever at last night's UK premiere of The World Is Not Enough.	1.474824
-10	117	IN true 007 style, Pierce Brosnan found himself surrounded by beautiful women at the European premiere of the 19th James Bond film in London last night.	1.474824
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: entertainment films
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	322	WHILE much of the world's press worried yesterday about whether Catherine Zeta-Jones would sign a pre-nuptial agreement to stop her getting her hands on Michael Douglas's fortune, the Welsh actress was quietly making herself and her family richer without recourse to her fianc�'s wealth.	3.748405
-2	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	3.531135
-3	86	SKY Television has scooped the rights to screen the Blackadder movie before the BBC.	2.716207
-4	118	007 WAS back in action last night for the British premiere of The World Is Not Enough at Leicester Square, London.	2.716207
-5	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	2.716207
-6	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	2.716207
-7	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	2.716207
-8	210	THE DAUGHTER of the undisputed master of suspense, Alfred Hitchcock, yesterday marked the centenary of his birth by viewing a collection of posters for his films and unveiling a plaque in his honour.	2.716207
-9	275	ALL Saint Nicole Appleton is to go topless in her movie debut, according to her big sister Natalie.	2.716207
-10	289	THE new Star Wars movie got its Royal premiere last night - as a galaxy of stars flocked to see it with Prince Charles.	2.716207
+1	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	1.712772
+2	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	1.541495
+3	215	AS ONE of the Jack the Lads of rock 'n' roll Mick Jagger has enjoyed more than his fair share of excess.	1.088114
+4	203	THERE'S Some-thin different about luscious Liz Hurley as she arrives at a West End film premiere last night.	1.027663
+5	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	1.027663
+6	88	VISITORS to the Millennium Dome will get a lesson in British history from BLACKADDER.	0.770747
+7	118	007 WAS back in action last night for the British premiere of The World Is Not Enough at Leicester Square, London.	0.770747
+8	274	I HEAR All Saints' Nicole Appleton goes TOPLESS in her new movie.	0.770747
+9	288	IT'S Obi-Clan Kenobi! Heart-throb Ewan McGregor looks out of this world in a kilt at the premiere of the new Star Wars film last night.	0.770747
+10	291	STARS, fans and royalty turned out in spectacular Force last night for Britain's first glimpse of Star Wars: The Phantom Menace.	0.725409
 
 Query: court appeal
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	165	JUDGES yesterday saved the NHS from being "bankrupted" by �1bn-a-year nursing home fees.	3.257314
-2	127	THE TRIAL of a 13-year-old youth accused of killing a boy of nine by setting his petrol-soaked clothes alight collapsed yesterdaywhen the judge ruled that theteenager could not understand the proceedings.	2.305476
-3	173	The NHS has been saved hundreds of millions of pounds after the court of appeal yesterday ruled that the service did not have to ensure free care for all elderly people in nursing homes.	1.597564
-4	171	A WOMAN paralysed in a road accident won a Court of Appeal victory yesterday that should ensure free long-term nursing care for many of the chronically disabled while sparing the Government hundreds of millions of pounds a year in extra National Health Service costs.	1.394175
-5	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	1.353637
-6	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	1.353637
-7	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	1.353637
-8	85	 Thomas AlIsop, 45, of Ludlow Square in north Belfast, appeared in court yesterday charged with the murder of Mr Bennett.	1.353637
-9	110	TWO Egyptians appeared in court yesterday in London in connection with the bombing of two American embassies in Africa.	1.353637
-10	113	Two Egyptians appeared at Bow Street magistrates' court yesterday in connectionwith the bombings last year of two American embassies in Africa.	1.353637
+1	165	JUDGES yesterday saved the NHS from being "bankrupted" by �1bn-a-year nursing home fees.	2.304811
+2	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.917814
+3	37	BRITISH Airways was fined �4million yesterday for paying travel agents to encourage customers to book its flights.	0.832198
+4	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	0.688360
+5	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	0.688360
+6	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	0.688360
+7	145	Dwayne Dawkins, 20, Brian Alleyne, 21, and Darren Matthews, 17, were convicted at Luton Crown Court of murdering Jonathan Coles, 18, who drowned in the Ouse in Newport Pagnell after they forced him off a bridge.	0.688360
+8	155	Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after being refused cake at Stoke Heath Young Offenders' Institute.	0.688360
+9	164	A CRASH victim yesterday won a court victory which could help tens of thousands of other people in nursing homes.	0.628585
+10	173	The NHS has been saved hundreds of millions of pounds after the court of appeal yesterday ruled that the service did not have to ensure free care for all elderly people in nursing homes.	0.566007
 
 Query: action film producer
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	5.065248
-2	118	007 WAS back in action last night for the British premiere of The World Is Not Enough at Leicester Square, London.	4.493179
-3	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	4.477988
-4	302	SAEED JAFFREY has been 'rested indefinitely' by Coronation Street's producers weeks after being arrested for drunken behaviour on a train.	4.159846
-5	322	WHILE much of the world's press worried yesterday about whether Catherine Zeta-Jones would sign a pre-nuptial agreement to stop her getting her hands on Michael Douglas's fortune, the Welsh actress was quietly making herself and her family richer without recourse to her fianc�'s wealth.	4.125632
-6	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	3.523562
-7	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	3.420919
-8	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	2.985325
-9	86	SKY Television has scooped the rights to screen the Blackadder movie before the BBC.	2.716207
-10	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	2.716207
+1	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	1.712772
+2	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	1.541495
+3	118	007 WAS back in action last night for the British premiere of The World Is Not Enough at Leicester Square, London.	1.231044
+4	215	AS ONE of the Jack the Lads of rock 'n' roll Mick Jagger has enjoyed more than his fair share of excess.	1.088114
+5	203	THERE'S Some-thin different about luscious Liz Hurley as she arrives at a West End film premiere last night.	1.027663
+6	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	1.027663
+7	88	VISITORS to the Millennium Dome will get a lesson in British history from BLACKADDER.	0.770747
+8	274	I HEAR All Saints' Nicole Appleton goes TOPLESS in her new movie.	0.770747
+9	288	IT'S Obi-Clan Kenobi! Heart-throb Ewan McGregor looks out of this world in a kilt at the premiere of the new Star Wars film last night.	0.770747
+10	291	STARS, fans and royalty turned out in spectacular Force last night for Britain's first glimpse of Star Wars: The Phantom Menace.	0.725409
 
 Query: drunk driving accusations
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	98	A Texan millionaire was last night jailed for 85 years after being convicted of a high speed drink-drive boat crash off Florida which claimed the life of a British yacht captain and his five passengers.	4.523562
-2	179	TOP Gear TV presenter Brendan Coogan has quit his "dream job" after being convicted of drink-driving.	4.523562
-3	181	THE presenter of Top Gear, Brendan Coogan, has lost his job because of a drink-drive conviction.	4.523562
-4	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	3.916056
-5	11	An executive accused of having sex with a stranger on board an American Airlines flight from Dallas to Manchester last October was sent for trial on April 3.	3.201634
-6	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	3.201634
-7	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	2.610704
-8	97	A WEALTHY Texan developer convicted of killing a British yachtsman and his five passengers in a highspeed drunk-driving boat crash was given an 85-year jail sentence yesterday.	2.600166
-9	127	THE TRIAL of a 13-year-old youth accused of killing a boy of nine by setting his petrol-soaked clothes alight collapsed yesterdaywhen the judge ruled that theteenager could not understand the proceedings.	2.401225
-10	180	Brendan Coogan, a Top Gear presenter, has lost his job because of a drink-drive conviction at Huddersfield on Monday.	2.261781
+1	98	A Texan millionaire was last night jailed for 85 years after being convicted of a high speed drink-drive boat crash off Florida which claimed the life of a British yacht captain and his five passengers.	2.761781
+2	179	TOP Gear TV presenter Brendan Coogan has quit his "dream job" after being convicted of drink-driving.	2.761781
+3	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	1.543492
+4	180	Brendan Coogan, a Top Gear presenter, has lost his job because of a drink-drive conviction at Huddersfield on Monday.	1.380890
+5	181	THE presenter of Top Gear, Brendan Coogan, has lost his job because of a drink-drive conviction.	1.104712
+6	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.926095
+7	299	CORONATION Street star Saeed Jaffrsy is being written out of the hit soap, it was revealed last night.	0.771746
+8	154	A RAPIST caught by a scrap of paper from a school report was jailed for seven years at the Old Bailey yesterday amid fears that he has claimed other victims.	0.463048
+9	301	CORRIE star Saeed Jaffrey is being written out - weeks after getting drunk and thrown in police cells.	0.385873
+10	300	ACTOR Saeed Jaffrey is being axed from Coronation Street weeks after his arrest for being drunk on a train.	0.308698
 
 Query: actor appeared in movie premiere
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	7.263090
-2	279	SIMPSONS mania is to hit Britain with a stage show featuring the "real" stars.	3.807355
-3	300	ACTOR Saeed Jaffrey is being axed from Coronation Street weeks after his arrest for being drunk on a train.	3.730201
-4	320	BRIDE-TO-be Catherine Zeta Jones was celebrating again yesterday after signing a multi million-pound deal to make up to 12 movies.	3.687061
-5	86	SKY Television has scooped the rights to screen the Blackadder movie before the BBC.	3.631545
-6	206	IT WASN'T quite as outrageous as That Dress, the barely believable gown (with the emphasis on barely) that made her an overnight sensation five years ago.	3.613040
-7	290	AFTER months of hype, Star Wars: The Phantom Menace had its royal premiere last night - and my fears came true.	3.613040
-8	293	AS THE boy who grows up into he most evil man in the universe, the young Darth Vader fears little and respects even less.	3.509274
-9	303	INDIAN actor Saeed Jaffrey hit out last night after being sacked from Coronation Street.	3.263447
-10	183	WHILE Kate is canoodling in Thailand, her tramp-like ox Johnny Depp is in London for the opening of his new film Sleepy Hollow.	3.055543
+1	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	1.776972
+2	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	1.581985
+3	88	VISITORS to the Millennium Dome will get a lesson in British history from BLACKADDER.	1.186489
+4	300	ACTOR Saeed Jaffrey is being axed from Coronation Street weeks after his arrest for being drunk on a train.	1.148595
+5	309	HIS hair might be a little greyer.	1.066183
+6	200	EASTENDERS star Craig Fairbrass quit the series because he reckoned his hardman character was starting to look like a "ballet dancer".	1.040248
+7	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	1.040248
+8	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.949191
+9	49	THE MOTHER of a four-month-old girl whose body was found in a canal has been charged with her baby's murder.	0.949191
+10	199	HARRY ENFIELD has become the latest star to leave the BBC.	0.862901
 
 Query: killing incident
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	2.165458
-2	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	2.165458
-3	106	A CONVICTED sex attacker who was cleared of killing and mutilating a prostitute six years ago was jailed for life at the Old Bailey yesterday for murdering another woman.	1.456890
-4	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	1.456890
-5	33	A drifter who killed three friends was jailed for life at Reading Crown Court.	1.274779
-6	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	1.092667
-7	103	AN EVIL Ripper-style killer, jailed for life yesterday, is to be questioned by police probing unsolved attacks on women all over the country.	1.062315
-8	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.866183
-9	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.849852
-10	80	ONE of Britain's top police officers appeared in court yesterday accused of a series of sex assaults on two civilian staff.	0.721819
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: suspect charged with murder
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	47	ROBINA Hashim, 29, was remanded in custody by Burnley, Lancs, JPs yesterday charged with murdering her baby daughter.	4.771950
-2	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	2.549557
-3	151	John Stratford, 28, an Army sergeant from Wavertree, Liverpool, appeared before magistrates in Hexham, Northumberland, charged with six counts of common assault on cadets at a training camp and possessing an offensive weapon.	2.549557
-4	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	2.269130
-5	49	THE MOTHER of a four-month-old girl whose body was found in a canal has been charged with her baby's murder.	1.908780
-6	85	 Thomas AlIsop, 45, of Ludlow Square in north Belfast, appeared in court yesterday charged with the murder of Mr Bennett.	1.590650
-7	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	1.274779
-8	11	An executive accused of having sex with a stranger on board an American Airlines flight from Dallas to Manchester last October was sent for trial on April 3.	1.274779
-9	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	1.274779
-10	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	1.274779
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: court
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.902425
-2	165	JUDGES yesterday saved the NHS from being "bankrupted" by �1bn-a-year nursing home fees.	0.902425
-3	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	0.676818
-4	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	0.676818
-5	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	0.676818
-6	145	Dwayne Dawkins, 20, Brian Alleyne, 21, and Darren Matthews, 17, were convicted at Luton Crown Court of murdering Jonathan Coles, 18, who drowned in the Ouse in Newport Pagnell after they forced him off a bridge.	0.676818
-7	155	Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after being refused cake at Stoke Heath Young Offenders' Institute.	0.676818
-8	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.541455
-9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.451212
-10	27	THE man who turned his ex-girlfriend into a human fireball has changed his court plea AGAIN and today faces a 25-year jail sentence.	0.451212
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: jury sentenced murderer to prison
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	3.517400
-2	44	BABY killer Sally Clarke protested her innocence yesterday from her prison cell.	2.440635
-3	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	2.408911
-4	47	ROBINA Hashim, 29, was remanded in custody by Burnley, Lancs, JPs yesterday charged with murdering her baby daughter.	2.222392
-5	99	THE father of a young mum butchered by a 19st sex monster last night blasted the legal system for allowing the fiend to remain free for 23 years.	1.905242
-6	121	A MAN accused of murdering British postman Brian Hagland at Sydney's Bondi Beach was cleared yesterday.	1.874129
-7	27	THE man who turned his ex-girlfriend into a human fireball has changed his court plea AGAIN and today faces a 25-year jail sentence.	1.850885
-8	144	Three men found guilty of murdering 18-year-old student Jonathan Coles, who was thrown into a river after leaving a Milton Keynes club, were facing life sentences last night.	1.666240
-9	51	An 18-year-old won the backing of a high court judge yesterday to keep her new-born baby with her in prison.	1.633196
-10	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	1.625800
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: movie
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	312	THOMAS The Tank Engine is being made into a blockbuster movie.	1.474824
-2	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	1.474824
-3	115	JAMES Bond star Pierce Brosnan plants a kiss on fiancee Keely Shaye-Smith at last night's British premiere of his new 007 movie.	1.229020
-4	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	1.229020
-5	274	I HEAR All Saints' Nicole Appleton goes TOPLESS in her new movie.	0.921765
-6	320	BRIDE-TO-be Catherine Zeta Jones was celebrating again yesterday after signing a multi million-pound deal to make up to 12 movies.	0.921765
-7	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	0.921765
-8	183	WHILE Kate is canoodling in Thailand, her tramp-like ox Johnny Depp is in London for the opening of his new film Sleepy Hollow.	0.737412
-9	275	ALL Saint Nicole Appleton is to go topless in her movie debut, according to her big sister Natalie.	0.737412
-10	117	IN true 007 style, Pierce Brosnan found himself surrounded by beautiful women at the European premiere of the 19th James Bond film in London last night.	0.567240
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: entertainment films
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	2.118681
-2	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	2.037155
-3	322	WHILE much of the world's press worried yesterday about whether Catherine Zeta-Jones would sign a pre-nuptial agreement to stop her getting her hands on Michael Douglas's fortune, the Welsh actress was quietly making herself and her family richer without recourse to her fianc�'s wealth.	1.874203
-4	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	1.509004
-5	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	1.509004
-6	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	1.358104
-7	289	THE new Star Wars movie got its Royal premiere last night - as a galaxy of stars flocked to see it with Prince Charles.	1.118438
-8	275	ALL Saint Nicole Appleton is to go topless in her movie debut, according to her big sister Natalie.	1.086483
-9	312	THOMAS The Tank Engine is being made into a blockbuster movie.	1.086483
-10	210	THE DAUGHTER of the undisputed master of suspense, Alfred Hitchcock, yesterday marked the centenary of his birth by viewing a collection of posters for his films and unveiling a plaque in his honour.	1.018578
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: court appeal
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	165	JUDGES yesterday saved the NHS from being "bankrupted" by �1bn-a-year nursing home fees.	2.171543
-2	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.902425
-3	37	BRITISH Airways was fined �4million yesterday for paying travel agents to encourage customers to book its flights.	0.761471
-4	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	0.676818
-5	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	0.676818
-6	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	0.676818
-7	145	Dwayne Dawkins, 20, Brian Alleyne, 21, and Darren Matthews, 17, were convicted at Luton Crown Court of murdering Jonathan Coles, 18, who drowned in the Ouse in Newport Pagnell after they forced him off a bridge.	0.676818
-8	155	Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after being refused cake at Stoke Heath Young Offenders' Institute.	0.676818
-9	173	The NHS has been saved hundreds of millions of pounds after the court of appeal yesterday ruled that the service did not have to ensure free care for all elderly people in nursing homes.	0.617241
-10	164	A CRASH victim yesterday won a court victory which could help tens of thousands of other people in nursing homes.	0.592239
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: action film producer
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	3.798936
-2	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	2.238994
-3	322	WHILE much of the world's press worried yesterday about whether Catherine Zeta-Jones would sign a pre-nuptial agreement to stop her getting her hands on Michael Douglas's fortune, the Welsh actress was quietly making herself and her family richer without recourse to her fianc�'s wealth.	2.062816
-4	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	1.900511
-5	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	1.791195
-6	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	1.509004
-7	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	1.174521
-8	199	HARRY ENFIELD has become the latest star to leave the BBC.	1.134503
-9	118	007 WAS back in action last night for the British premiere of The World Is Not Enough at Leicester Square, London.	1.123295
-10	289	THE new Star Wars movie got its Royal premiere last night - as a galaxy of stars flocked to see it with Prince Charles.	1.118438
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: drunk driving accusations
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	179	TOP Gear TV presenter Brendan Coogan has quit his "dream job" after being convicted of drink-driving.	4.523562
-2	98	A Texan millionaire was last night jailed for 85 years after being convicted of a high speed drink-drive boat crash off Florida which claimed the life of a British yacht captain and his five passengers.	3.392671
-3	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	2.610704
-4	181	THE presenter of Top Gear, Brendan Coogan, has lost his job because of a drink-drive conviction.	1.809425
-5	11	An executive accused of having sex with a stranger on board an American Airlines flight from Dallas to Manchester last October was sent for trial on April 3.	1.600817
-6	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	1.600817
-7	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	1.566422
-8	180	Brendan Coogan, a Top Gear presenter, has lost his job because of a drink-drive conviction at Huddersfield on Monday.	1.130890
-9	80	ONE of Britain's top police officers appeared in court yesterday accused of a series of sex assaults on two civilian staff.	1.067211
-10	97	A WEALTHY Texan developer convicted of killing a British yachtsman and his five passengers in a highspeed drunk-driving boat crash was given an 85-year jail sentence yesterday.	0.866722
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: actor appeared in movie premiere
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	2.421030
-2	312	THOMAS The Tank Engine is being made into a blockbuster movie.	2.236295
-3	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	1.873604
-4	115	JAMES Bond star Pierce Brosnan plants a kiss on fiancee Keely Shaye-Smith at last night's British premiere of his new 007 movie.	1.626357
-5	300	ACTOR Saeed Jaffrey is being axed from Coronation Street weeks after his arrest for being drunk on a train.	1.492080
-6	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	1.474824
-7	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	1.454416
-8	211	TELLY beauty Amanda Holden reckons there's too much sex on the box.	1.269118
-9	289	THE new Star Wars movie got its Royal premiere last night - as a galaxy of stars flocked to see it with Prince Charles.	1.228109
-10	183	WHILE Kate is canoodling in Thailand, her tramp-like ox Johnny Depp is in London for the opening of his new film Sleepy Hollow.	1.222217
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: killing incident
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	2.165458
-2	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	2.165458
-3	106	A CONVICTED sex attacker who was cleared of killing and mutilating a prostitute six years ago was jailed for life at the Old Bailey yesterday for murdering another woman.	1.456890
-4	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	1.456890
-5	33	A drifter who killed three friends was jailed for life at Reading Crown Court.	1.274779
-6	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	1.092667
-7	103	AN EVIL Ripper-style killer, jailed for life yesterday, is to be questioned by police probing unsolved attacks on women all over the country.	1.062315
-8	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.866183
-9	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.849852
-10	80	ONE of Britain's top police officers appeared in court yesterday accused of a series of sex assaults on two civilian staff.	0.721819
+1	93	NAZI nailbomber David Copeland had a death wish from the age of 14, a court heard yesterday.	0.608936
+2	103	AN EVIL Ripper-style killer, jailed for life yesterday, is to be questioned by police probing unsolved attacks on women all over the country.	0.405957
+3	104	A LORRY driver jailed for the sadistic murder of a prostitute yesterday may be a second Yorkshire Ripper, police believe.	0.360851
+4	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	0.347963
+5	31	A DRIFTER who killed three friends in horrific axe and knife attacks was given three life sentences yesterday.	0.256394
+6	102	I WATCHED shambling 19stone giant David Smith shuffle out of the Old Bailey six years ago - a free man.	0.152234
+7	111	The US government was yesterday ordered to provide further information about its reasons for seeking the extradition of two Egyptians arrested in connection with the bombing of American embassies in Africa last year.	0.124910
+8	124	THE FAMILY of a British Backpacker killed at Bondi Beach broke down in court yesterday after they watched a Sydney jury clear his attacker of murder.	0.124910
+9	35	A drifter who killed three friends in an "apparently motiveless" axe attack was given three life sentences yesterday.	0.108255
+10	30	CRAZED killer Alan Hobbs, who hacked his lover, her boyfriend and another man to death, was given three life sentences yesterday.	0.090213
 
 Query: suspect charged with murder
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	47	ROBINA Hashim, 29, was remanded in custody by Burnley, Lancs, JPs yesterday charged with murdering her baby daughter.	4.771950
-2	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	2.549557
-3	151	John Stratford, 28, an Army sergeant from Wavertree, Liverpool, appeared before magistrates in Hexham, Northumberland, charged with six counts of common assault on cadets at a training camp and possessing an offensive weapon.	2.549557
-4	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	2.269130
-5	49	THE MOTHER of a four-month-old girl whose body was found in a canal has been charged with her baby's murder.	1.908780
-6	85	 Thomas AlIsop, 45, of Ludlow Square in north Belfast, appeared in court yesterday charged with the murder of Mr Bennett.	1.590650
-7	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	1.274779
-8	11	An executive accused of having sex with a stranger on board an American Airlines flight from Dallas to Manchester last October was sent for trial on April 3.	1.274779
-9	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	1.274779
-10	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	1.274779
+1	109	A MAN jailed for life at the Old Bailey yesterday faces further police investigations into other unsolved attacks on women throughout the UK.	1.041199
+2	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.867665
+3	85	 Thomas AlIsop, 45, of Ludlow Square in north Belfast, appeared in court yesterday charged with the murder of Mr Bennett.	0.867665
+4	59	A SENIOR police officer was accused yesterday of planting evidence on the alleged killer of Joanne Clarke, a British holidaymaker, to protect tourist interests in the Bahamas.	0.743713
+5	140	A former salesman who claimed to be 'the friendly face of home shopping' was yesterday given two life sentences for the murder of a dog breeder and her mother.	0.678642
+6	142	FOUR youths were yesterday convicted of killing a promising A-level student who they beat-up and left in a river to drown after a night club brawl.	0.650749
+7	45	A FATHER, already in jail for attacking his son, received a life sentence for murder yesterday because the toddler died 16 months after the assault.	0.578444
+8	143	A GANG who terrorised a student before throwing him into a river where he drowned were convicted of his killing yesterday.	0.578444
+9	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	0.557785
+10	48	The mother of a baby found dead in a canal in Burnley in Lancashire was yesterday charged with murder.	0.520599
 
 Query: court
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.902425
-2	165	JUDGES yesterday saved the NHS from being "bankrupted" by �1bn-a-year nursing home fees.	0.902425
-3	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	0.676818
-4	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	0.676818
-5	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	0.676818
-6	145	Dwayne Dawkins, 20, Brian Alleyne, 21, and Darren Matthews, 17, were convicted at Luton Crown Court of murdering Jonathan Coles, 18, who drowned in the Ouse in Newport Pagnell after they forced him off a bridge.	0.676818
-7	155	Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after being refused cake at Stoke Heath Young Offenders' Institute.	0.676818
-8	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.541455
-9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.451212
-10	27	THE man who turned his ex-girlfriend into a human fireball has changed his court plea AGAIN and today faces a 25-year jail sentence.	0.451212
+1	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.917814
+2	165	JUDGES yesterday saved the NHS from being "bankrupted" by �1bn-a-year nursing home fees.	0.917814
+3	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	0.688360
+4	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	0.688360
+5	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	0.688360
+6	145	Dwayne Dawkins, 20, Brian Alleyne, 21, and Darren Matthews, 17, were convicted at Luton Crown Court of murdering Jonathan Coles, 18, who drowned in the Ouse in Newport Pagnell after they forced him off a bridge.	0.688360
+7	155	Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after being refused cake at Stoke Heath Young Offenders' Institute.	0.688360
+8	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.550688
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.458907
+10	27	THE man who turned his ex-girlfriend into a human fireball has changed his court plea AGAIN and today faces a 25-year jail sentence.	0.458907
 
 Query: jury sentenced murderer to prison
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	3.517400
-2	44	BABY killer Sally Clarke protested her innocence yesterday from her prison cell.	2.440635
-3	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	2.408911
-4	47	ROBINA Hashim, 29, was remanded in custody by Burnley, Lancs, JPs yesterday charged with murdering her baby daughter.	2.222392
-5	99	THE father of a young mum butchered by a 19st sex monster last night blasted the legal system for allowing the fiend to remain free for 23 years.	1.905242
-6	121	A MAN accused of murdering British postman Brian Hagland at Sydney's Bondi Beach was cleared yesterday.	1.874129
-7	27	THE man who turned his ex-girlfriend into a human fireball has changed his court plea AGAIN and today faces a 25-year jail sentence.	1.850885
-8	144	Three men found guilty of murdering 18-year-old student Jonathan Coles, who was thrown into a river after leaving a Milton Keynes club, were facing life sentences last night.	1.666240
-9	51	An 18-year-old won the backing of a high court judge yesterday to keep her new-born baby with her in prison.	1.633196
-10	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	1.625800
+1	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	1.727844
+2	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	1.186489
+3	109	A MAN jailed for life at the Old Bailey yesterday faces further police investigations into other unsolved attacks on women throughout the UK.	1.041199
+4	44	BABY killer Sally Clarke protested her innocence yesterday from her prison cell.	0.949191
+5	51	An 18-year-old won the backing of a high court judge yesterday to keep her new-born baby with her in prison.	0.949191
+6	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	0.896782
+7	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.867665
+8	85	 Thomas AlIsop, 45, of Ludlow Square in north Belfast, appeared in court yesterday charged with the murder of Mr Bennett.	0.867665
+9	138	A FORMER double-glazing salesman received two life sentences yesterday for the murders of a prize-winning dog breeder and her elderly mother at their isolated farmhouse.	0.790992
+10	59	A SENIOR police officer was accused yesterday of planting evidence on the alleged killer of Joanne Clarke, a British holidaymaker, to protect tourist interests in the Bahamas.	0.743713
 
 Query: movie
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	312	THOMAS The Tank Engine is being made into a blockbuster movie.	1.474824
-2	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	1.474824
-3	115	JAMES Bond star Pierce Brosnan plants a kiss on fiancee Keely Shaye-Smith at last night's British premiere of his new 007 movie.	1.229020
-4	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	1.229020
-5	274	I HEAR All Saints' Nicole Appleton goes TOPLESS in her new movie.	0.921765
-6	320	BRIDE-TO-be Catherine Zeta Jones was celebrating again yesterday after signing a multi million-pound deal to make up to 12 movies.	0.921765
-7	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	0.921765
-8	183	WHILE Kate is canoodling in Thailand, her tramp-like ox Johnny Depp is in London for the opening of his new film Sleepy Hollow.	0.737412
-9	275	ALL Saint Nicole Appleton is to go topless in her movie debut, according to her big sister Natalie.	0.737412
-10	117	IN true 007 style, Pierce Brosnan found himself surrounded by beautiful women at the European premiere of the 19th James Bond film in London last night.	0.567240
+1	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	0.000000
+2	2	THE deputy head and a housemaster of a children's home were jailed for a total of 23 years yesterday for sex attacks on boys in their care.	0.000000
+3	3	TWO senior staff at a school for vulnerable children were jailed for a total of 23 years yesterday for abusing boys in their care.	0.000000
+4	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	0.000000
+5	5	THE former head teacher of a special school was jailed for 14 years yesterday for physically and sexually abusing boys in his care.	0.000000
+6	6	THE former headmaster of a residential boys' school was jailed for 14 years yesterday for sexually and physically abusing teenage boys.	0.000000
+7	7	A FORMER headmaster who physically and sexually abused boys in his care was jailed for 14 years yesterday.	0.000000
+8	8	A SOCIAL services inspector was yesterday jailed for 14 years for physically and sexually abusing boys in his care while serving as headmaster at a special school.	0.000000
+9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.000000
+10	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.000000
 
 Query: entertainment films
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	2.118681
-2	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	2.037155
-3	322	WHILE much of the world's press worried yesterday about whether Catherine Zeta-Jones would sign a pre-nuptial agreement to stop her getting her hands on Michael Douglas's fortune, the Welsh actress was quietly making herself and her family richer without recourse to her fianc�'s wealth.	1.874203
-4	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	1.509004
-5	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	1.509004
-6	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	1.358104
-7	289	THE new Star Wars movie got its Royal premiere last night - as a galaxy of stars flocked to see it with Prince Charles.	1.118438
-8	275	ALL Saint Nicole Appleton is to go topless in her movie debut, according to her big sister Natalie.	1.086483
-9	312	THOMAS The Tank Engine is being made into a blockbuster movie.	1.086483
-10	210	THE DAUGHTER of the undisputed master of suspense, Alfred Hitchcock, yesterday marked the centenary of his birth by viewing a collection of posters for his films and unveiling a plaque in his honour.	1.018578
+1	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	1.712772
+2	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	1.541495
+3	215	AS ONE of the Jack the Lads of rock 'n' roll Mick Jagger has enjoyed more than his fair share of excess.	1.088114
+4	203	THERE'S Some-thin different about luscious Liz Hurley as she arrives at a West End film premiere last night.	1.027663
+5	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	1.027663
+6	88	VISITORS to the Millennium Dome will get a lesson in British history from BLACKADDER.	0.770747
+7	118	007 WAS back in action last night for the British premiere of The World Is Not Enough at Leicester Square, London.	0.770747
+8	274	I HEAR All Saints' Nicole Appleton goes TOPLESS in her new movie.	0.770747
+9	288	IT'S Obi-Clan Kenobi! Heart-throb Ewan McGregor looks out of this world in a kilt at the premiere of the new Star Wars film last night.	0.770747
+10	291	STARS, fans and royalty turned out in spectacular Force last night for Britain's first glimpse of Star Wars: The Phantom Menace.	0.725409
 
 Query: court appeal
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	165	JUDGES yesterday saved the NHS from being "bankrupted" by �1bn-a-year nursing home fees.	2.171543
-2	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.902425
-3	37	BRITISH Airways was fined �4million yesterday for paying travel agents to encourage customers to book its flights.	0.761471
-4	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	0.676818
-5	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	0.676818
-6	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	0.676818
-7	145	Dwayne Dawkins, 20, Brian Alleyne, 21, and Darren Matthews, 17, were convicted at Luton Crown Court of murdering Jonathan Coles, 18, who drowned in the Ouse in Newport Pagnell after they forced him off a bridge.	0.676818
-8	155	Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after being refused cake at Stoke Heath Young Offenders' Institute.	0.676818
-9	173	The NHS has been saved hundreds of millions of pounds after the court of appeal yesterday ruled that the service did not have to ensure free care for all elderly people in nursing homes.	0.617241
-10	164	A CRASH victim yesterday won a court victory which could help tens of thousands of other people in nursing homes.	0.592239
+1	165	JUDGES yesterday saved the NHS from being "bankrupted" by �1bn-a-year nursing home fees.	2.304811
+2	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.917814
+3	37	BRITISH Airways was fined �4million yesterday for paying travel agents to encourage customers to book its flights.	0.832198
+4	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	0.688360
+5	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	0.688360
+6	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	0.688360
+7	145	Dwayne Dawkins, 20, Brian Alleyne, 21, and Darren Matthews, 17, were convicted at Luton Crown Court of murdering Jonathan Coles, 18, who drowned in the Ouse in Newport Pagnell after they forced him off a bridge.	0.688360
+8	155	Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after being refused cake at Stoke Heath Young Offenders' Institute.	0.688360
+9	164	A CRASH victim yesterday won a court victory which could help tens of thousands of other people in nursing homes.	0.628585
+10	173	The NHS has been saved hundreds of millions of pounds after the court of appeal yesterday ruled that the service did not have to ensure free care for all elderly people in nursing homes.	0.566007
 
 Query: action film producer
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	3.798936
-2	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	2.238994
-3	322	WHILE much of the world's press worried yesterday about whether Catherine Zeta-Jones would sign a pre-nuptial agreement to stop her getting her hands on Michael Douglas's fortune, the Welsh actress was quietly making herself and her family richer without recourse to her fianc�'s wealth.	2.062816
-4	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	1.900511
-5	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	1.791195
-6	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	1.509004
-7	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	1.174521
-8	199	HARRY ENFIELD has become the latest star to leave the BBC.	1.134503
-9	118	007 WAS back in action last night for the British premiere of The World Is Not Enough at Leicester Square, London.	1.123295
-10	289	THE new Star Wars movie got its Royal premiere last night - as a galaxy of stars flocked to see it with Prince Charles.	1.118438
+1	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	1.712772
+2	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	1.541495
+3	118	007 WAS back in action last night for the British premiere of The World Is Not Enough at Leicester Square, London.	1.231044
+4	215	AS ONE of the Jack the Lads of rock 'n' roll Mick Jagger has enjoyed more than his fair share of excess.	1.088114
+5	203	THERE'S Some-thin different about luscious Liz Hurley as she arrives at a West End film premiere last night.	1.027663
+6	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	1.027663
+7	88	VISITORS to the Millennium Dome will get a lesson in British history from BLACKADDER.	0.770747
+8	274	I HEAR All Saints' Nicole Appleton goes TOPLESS in her new movie.	0.770747
+9	288	IT'S Obi-Clan Kenobi! Heart-throb Ewan McGregor looks out of this world in a kilt at the premiere of the new Star Wars film last night.	0.770747
+10	291	STARS, fans and royalty turned out in spectacular Force last night for Britain's first glimpse of Star Wars: The Phantom Menace.	0.725409
 
 Query: drunk driving accusations
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	179	TOP Gear TV presenter Brendan Coogan has quit his "dream job" after being convicted of drink-driving.	4.523562
-2	98	A Texan millionaire was last night jailed for 85 years after being convicted of a high speed drink-drive boat crash off Florida which claimed the life of a British yacht captain and his five passengers.	3.392671
-3	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	2.610704
-4	181	THE presenter of Top Gear, Brendan Coogan, has lost his job because of a drink-drive conviction.	1.809425
-5	11	An executive accused of having sex with a stranger on board an American Airlines flight from Dallas to Manchester last October was sent for trial on April 3.	1.600817
-6	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	1.600817
-7	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	1.566422
-8	180	Brendan Coogan, a Top Gear presenter, has lost his job because of a drink-drive conviction at Huddersfield on Monday.	1.130890
-9	80	ONE of Britain's top police officers appeared in court yesterday accused of a series of sex assaults on two civilian staff.	1.067211
-10	97	A WEALTHY Texan developer convicted of killing a British yachtsman and his five passengers in a highspeed drunk-driving boat crash was given an 85-year jail sentence yesterday.	0.866722
+1	98	A Texan millionaire was last night jailed for 85 years after being convicted of a high speed drink-drive boat crash off Florida which claimed the life of a British yacht captain and his five passengers.	2.761781
+2	179	TOP Gear TV presenter Brendan Coogan has quit his "dream job" after being convicted of drink-driving.	2.761781
+3	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	1.543492
+4	180	Brendan Coogan, a Top Gear presenter, has lost his job because of a drink-drive conviction at Huddersfield on Monday.	1.380890
+5	181	THE presenter of Top Gear, Brendan Coogan, has lost his job because of a drink-drive conviction.	1.104712
+6	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.926095
+7	299	CORONATION Street star Saeed Jaffrsy is being written out of the hit soap, it was revealed last night.	0.771746
+8	154	A RAPIST caught by a scrap of paper from a school report was jailed for seven years at the Old Bailey yesterday amid fears that he has claimed other victims.	0.463048
+9	301	CORRIE star Saeed Jaffrey is being written out - weeks after getting drunk and thrown in police cells.	0.385873
+10	300	ACTOR Saeed Jaffrey is being axed from Coronation Street weeks after his arrest for being drunk on a train.	0.308698
 
 Query: actor appeared in movie premiere
 Ranked Documents	Document ID	First Sentence	Ranking Score
-1	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	2.421030
-2	312	THOMAS The Tank Engine is being made into a blockbuster movie.	2.236295
-3	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	1.873604
-4	115	JAMES Bond star Pierce Brosnan plants a kiss on fiancee Keely Shaye-Smith at last night's British premiere of his new 007 movie.	1.626357
-5	300	ACTOR Saeed Jaffrey is being axed from Coronation Street weeks after his arrest for being drunk on a train.	1.492080
-6	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	1.474824
-7	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	1.454416
-8	211	TELLY beauty Amanda Holden reckons there's too much sex on the box.	1.269118
-9	289	THE new Star Wars movie got its Royal premiere last night - as a galaxy of stars flocked to see it with Prince Charles.	1.228109
-10	183	WHILE Kate is canoodling in Thailand, her tramp-like ox Johnny Depp is in London for the opening of his new film Sleepy Hollow.	1.222217
-
-Query: killing incident
-Ranked Documents	Document ID	First Sentence	Ranking Score
-1	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	2.165458
-2	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	2.165458
-3	106	A CONVICTED sex attacker who was cleared of killing and mutilating a prostitute six years ago was jailed for life at the Old Bailey yesterday for murdering another woman.	1.456890
-4	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	1.456890
-5	33	A drifter who killed three friends was jailed for life at Reading Crown Court.	1.274779
-6	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	1.092667
-7	103	AN EVIL Ripper-style killer, jailed for life yesterday, is to be questioned by police probing unsolved attacks on women all over the country.	1.062315
-8	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.866183
-9	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.849852
-10	80	ONE of Britain's top police officers appeared in court yesterday accused of a series of sex assaults on two civilian staff.	0.721819
-
-Query: suspect charged with murder
-Ranked Documents	Document ID	First Sentence	Ranking Score
-1	47	ROBINA Hashim, 29, was remanded in custody by Burnley, Lancs, JPs yesterday charged with murdering her baby daughter.	4.771950
-2	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	2.549557
-3	151	John Stratford, 28, an Army sergeant from Wavertree, Liverpool, appeared before magistrates in Hexham, Northumberland, charged with six counts of common assault on cadets at a training camp and possessing an offensive weapon.	2.549557
-4	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	2.269130
-5	49	THE MOTHER of a four-month-old girl whose body was found in a canal has been charged with her baby's murder.	1.908780
-6	85	 Thomas AlIsop, 45, of Ludlow Square in north Belfast, appeared in court yesterday charged with the murder of Mr Bennett.	1.590650
-7	1	A MAN of 80 appeared before Birmingham JPs yesterday charged with 14 indecent assaults on boys at a children's home.	1.274779
-8	11	An executive accused of having sex with a stranger on board an American Airlines flight from Dallas to Manchester last October was sent for trial on April 3.	1.274779
-9	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	1.274779
-10	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	1.274779
-
-Query: court
-Ranked Documents	Document ID	First Sentence	Ranking Score
-1	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.902425
-2	165	JUDGES yesterday saved the NHS from being "bankrupted" by �1bn-a-year nursing home fees.	0.902425
-3	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	0.676818
-4	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	0.676818
-5	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	0.676818
-6	145	Dwayne Dawkins, 20, Brian Alleyne, 21, and Darren Matthews, 17, were convicted at Luton Crown Court of murdering Jonathan Coles, 18, who drowned in the Ouse in Newport Pagnell after they forced him off a bridge.	0.676818
-7	155	Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after being refused cake at Stoke Heath Young Offenders' Institute.	0.676818
-8	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.541455
-9	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	0.451212
-10	27	THE man who turned his ex-girlfriend into a human fireball has changed his court plea AGAIN and today faces a 25-year jail sentence.	0.451212
-
-Query: jury sentenced murderer to prison
-Ranked Documents	Document ID	First Sentence	Ranking Score
-1	107	A SEX offender who boasted in prison that he had got away with killing one woman and had murdered several others was yesterday jailed for life for murdering a young mother whose mutilated body was found in a shallow grave in Surrey.	3.517400
-2	44	BABY killer Sally Clarke protested her innocence yesterday from her prison cell.	2.440635
-3	4	Two key workers at a children's home were sentenced yesterday to a total of 23 years in prison for a string of sexual assaults on boys in their care.	2.408911
-4	47	ROBINA Hashim, 29, was remanded in custody by Burnley, Lancs, JPs yesterday charged with murdering her baby daughter.	2.222392
-5	99	THE father of a young mum butchered by a 19st sex monster last night blasted the legal system for allowing the fiend to remain free for 23 years.	1.905242
-6	121	A MAN accused of murdering British postman Brian Hagland at Sydney's Bondi Beach was cleared yesterday.	1.874129
-7	27	THE man who turned his ex-girlfriend into a human fireball has changed his court plea AGAIN and today faces a 25-year jail sentence.	1.850885
-8	144	Three men found guilty of murdering 18-year-old student Jonathan Coles, who was thrown into a river after leaving a Milton Keynes club, were facing life sentences last night.	1.666240
-9	51	An 18-year-old won the backing of a high court judge yesterday to keep her new-born baby with her in prison.	1.633196
-10	105	A SEX killer who mutilated a young mother was last night facing questions over a string of unsolved murders.	1.625800
-
-Query: movie
-Ranked Documents	Document ID	First Sentence	Ranking Score
-1	312	THOMAS The Tank Engine is being made into a blockbuster movie.	1.474824
-2	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	1.474824
-3	115	JAMES Bond star Pierce Brosnan plants a kiss on fiancee Keely Shaye-Smith at last night's British premiere of his new 007 movie.	1.229020
-4	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	1.229020
-5	274	I HEAR All Saints' Nicole Appleton goes TOPLESS in her new movie.	0.921765
-6	320	BRIDE-TO-be Catherine Zeta Jones was celebrating again yesterday after signing a multi million-pound deal to make up to 12 movies.	0.921765
-7	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	0.921765
-8	183	WHILE Kate is canoodling in Thailand, her tramp-like ox Johnny Depp is in London for the opening of his new film Sleepy Hollow.	0.737412
-9	275	ALL Saint Nicole Appleton is to go topless in her movie debut, according to her big sister Natalie.	0.737412
-10	117	IN true 007 style, Pierce Brosnan found himself surrounded by beautiful women at the European premiere of the 19th James Bond film in London last night.	0.567240
-
-Query: entertainment films
-Ranked Documents	Document ID	First Sentence	Ranking Score
-1	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	2.118681
-2	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	2.037155
-3	322	WHILE much of the world's press worried yesterday about whether Catherine Zeta-Jones would sign a pre-nuptial agreement to stop her getting her hands on Michael Douglas's fortune, the Welsh actress was quietly making herself and her family richer without recourse to her fianc�'s wealth.	1.874203
-4	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	1.509004
-5	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	1.509004
-6	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	1.358104
-7	289	THE new Star Wars movie got its Royal premiere last night - as a galaxy of stars flocked to see it with Prince Charles.	1.118438
-8	275	ALL Saint Nicole Appleton is to go topless in her movie debut, according to her big sister Natalie.	1.086483
-9	312	THOMAS The Tank Engine is being made into a blockbuster movie.	1.086483
-10	210	THE DAUGHTER of the undisputed master of suspense, Alfred Hitchcock, yesterday marked the centenary of his birth by viewing a collection of posters for his films and unveiling a plaque in his honour.	1.018578
-
-Query: court appeal
-Ranked Documents	Document ID	First Sentence	Ranking Score
-1	165	JUDGES yesterday saved the NHS from being "bankrupted" by �1bn-a-year nursing home fees.	2.171543
-2	52	TODDLER Molly Adams was killed by her 12-year-old babysitter, a court heard yesterday.	0.902425
-3	37	BRITISH Airways was fined �4million yesterday for paying travel agents to encourage customers to book its flights.	0.761471
-4	12	FIVE Irish tourists charged in connection with an alleged air rage incident which led to a Jamaica-bound plane being diverted to the US have been committed for trial at Chichester Crown Court.	0.676818
-5	13	FIVE IRISH tourists charged in connection with an alleged air-rage incident will face trial at a Crown Court.	0.676818
-6	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	0.676818
-7	145	Dwayne Dawkins, 20, Brian Alleyne, 21, and Darren Matthews, 17, were convicted at Luton Crown Court of murdering Jonathan Coles, 18, who drowned in the Ouse in Newport Pagnell after they forced him off a bridge.	0.676818
-8	155	Maurice Travis, 19, was jailed for life at Wolverhampton Crown Court for stabbing Alan Averall to death on his 17th birthday after being refused cake at Stoke Heath Young Offenders' Institute.	0.676818
-9	173	The NHS has been saved hundreds of millions of pounds after the court of appeal yesterday ruled that the service did not have to ensure free care for all elderly people in nursing homes.	0.617241
-10	164	A CRASH victim yesterday won a court victory which could help tens of thousands of other people in nursing homes.	0.592239
-
-Query: action film producer
-Ranked Documents	Document ID	First Sentence	Ranking Score
-1	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	3.798936
-2	184	JOHNNY Depp looks like he's dropping a hint to any producer thinking of making a film about Che Guevara.	2.238994
-3	322	WHILE much of the world's press worried yesterday about whether Catherine Zeta-Jones would sign a pre-nuptial agreement to stop her getting her hands on Michael Douglas's fortune, the Welsh actress was quietly making herself and her family richer without recourse to her fianc�'s wealth.	2.062816
-4	207	ELIZABETH Hurley appeared in another revealing Versace dress last night for the world premiere of Mickey Blue Eyes, the new film starring her boyfriend Hugh Grant.	1.900511
-5	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	1.791195
-6	208	ALFRED HITCHCOCK would not have tolerated the massive fees now paid to film stars, his daughter said yesterday.	1.509004
-7	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	1.174521
-8	199	HARRY ENFIELD has become the latest star to leave the BBC.	1.134503
-9	118	007 WAS back in action last night for the British premiere of The World Is Not Enough at Leicester Square, London.	1.123295
-10	289	THE new Star Wars movie got its Royal premiere last night - as a galaxy of stars flocked to see it with Prince Charles.	1.118438
-
-Query: drunk driving accusations
-Ranked Documents	Document ID	First Sentence	Ranking Score
-1	179	TOP Gear TV presenter Brendan Coogan has quit his "dream job" after being convicted of drink-driving.	4.523562
-2	98	A Texan millionaire was last night jailed for 85 years after being convicted of a high speed drink-drive boat crash off Florida which claimed the life of a British yacht captain and his five passengers.	3.392671
-3	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	2.610704
-4	181	THE presenter of Top Gear, Brendan Coogan, has lost his job because of a drink-drive conviction.	1.809425
-5	11	An executive accused of having sex with a stranger on board an American Airlines flight from Dallas to Manchester last October was sent for trial on April 3.	1.600817
-6	75	THE Deputy Chief Constable of Surrey was in court yesterday charged with four sex attacks.	1.600817
-7	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	1.566422
-8	180	Brendan Coogan, a Top Gear presenter, has lost his job because of a drink-drive conviction at Huddersfield on Monday.	1.130890
-9	80	ONE of Britain's top police officers appeared in court yesterday accused of a series of sex assaults on two civilian staff.	1.067211
-10	97	A WEALTHY Texan developer convicted of killing a British yachtsman and his five passengers in a highspeed drunk-driving boat crash was given an 85-year jail sentence yesterday.	0.866722
-
-Query: actor appeared in movie premiere
-Ranked Documents	Document ID	First Sentence	Ranking Score
-1	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	2.421030
-2	312	THOMAS The Tank Engine is being made into a blockbuster movie.	2.236295
-3	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	1.873604
-4	115	JAMES Bond star Pierce Brosnan plants a kiss on fiancee Keely Shaye-Smith at last night's British premiere of his new 007 movie.	1.626357
-5	300	ACTOR Saeed Jaffrey is being axed from Coronation Street weeks after his arrest for being drunk on a train.	1.492080
-6	319	STUNNING Catherine Zeta Jones has signed a �250million deal to make Hollywood movies, it was revealed last night.	1.474824
-7	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	1.454416
-8	211	TELLY beauty Amanda Holden reckons there's too much sex on the box.	1.269118
-9	289	THE new Star Wars movie got its Royal premiere last night - as a galaxy of stars flocked to see it with Prince Charles.	1.228109
-10	183	WHILE Kate is canoodling in Thailand, her tramp-like ox Johnny Depp is in London for the opening of his new film Sleepy Hollow.	1.222217
+1	205	LIZ HURLEY basked in reflected glory at the London premier of her new movie Mickey Blue Eyes last night.	1.776972
+2	9	A BUSINESSMAN accused of a mid-air sex act with a stranger on an airliner was yesterday sent for trial by Manchester magistrates charged with outraging public decency and being drunk on the American Airlines plane last October.	1.581985
+3	88	VISITORS to the Millennium Dome will get a lesson in British history from BLACKADDER.	1.186489
+4	300	ACTOR Saeed Jaffrey is being axed from Coronation Street weeks after his arrest for being drunk on a train.	1.148595
+5	309	HIS hair might be a little greyer.	1.066183
+6	200	EASTENDERS star Craig Fairbrass quit the series because he reckoned his hardman character was starting to look like a "ballet dancer".	1.040248
+7	321	WELSH actress Catherine Zeta Jones is on her way to becoming a movie mogul.	1.040248
+8	10	A BUSINESSMAN accused of indulging in a passionate clinch with a woman stranger on a transatlantic flight was sent for trial when he appeared in court yesterday.	0.949191
+9	49	THE MOTHER of a four-month-old girl whose body was found in a canal has been charged with her baby's murder.	0.949191
+10	199	HARRY ENFIELD has become the latest star to leave the BBC.	0.862901
 

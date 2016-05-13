@@ -81,19 +81,64 @@ public class DocumentIndex {
         }
         words.remove("");
         //words.removeAll(stopWords);
-        for(int i = 0; i < words.size(); i++)
+        String previousWord = words.get(0);
+        String word = previousWord;
+        if(!index.containsKey(word))
         {
-            String stem;
-            if(!stopWords.contains(words.get(i)))
+            HashMap<Integer, Integer> docs = new HashMap<>();
+            docs.put(docNumber, 1);
+            if(max_frequency < 1)
+                max_frequency = 1;
+            index.put(word, docs);
+        }
+        else
+        {
+            HashMap<Integer, Integer> docs = index.get(word);
+            if(!docs.containsKey(docNumber))
             {
-                stem = stemmer.stem(words.get(i));
-                words.set(i, stem);
+                docs.put(docNumber, 1);
+                if(max_frequency < 1)
+                    max_frequency = 1;
             }
             else
             {
-                stem = words.get(i);
+                int frequency = docs.get(docNumber)+1;
+                docs.put(docNumber,frequency);
+                if(max_frequency < frequency)
+                    max_frequency = frequency;
             }
-
+        }
+        for(int i = 1; i < words.size(); i++)
+        {
+            String stem = previousWord+" "+words.get(i);
+            previousWord = words.get(i);
+            if(!index.containsKey(stem))
+            {
+                HashMap<Integer, Integer> docs = new HashMap<>();
+                docs.put(docNumber, 1);
+                if(max_frequency < 1)
+                    max_frequency = 1;
+                index.put(stem, docs);
+            }
+            else
+            {
+                HashMap<Integer, Integer> docs = index.get(stem);
+                if(!docs.containsKey(docNumber))
+                {
+                    docs.put(docNumber, 1);
+                    if(max_frequency < 1)
+                        max_frequency = 1;
+                }
+                else
+                {
+                    int frequency = docs.get(docNumber)+1;
+                    docs.put(docNumber,frequency);
+                    if(max_frequency < frequency)
+                        max_frequency = frequency;
+                }
+            }
+            stem = words.get(i);
+            previousWord = words.get(i);
             if(!index.containsKey(stem))
             {
                 HashMap<Integer, Integer> docs = new HashMap<>();
