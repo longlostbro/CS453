@@ -5,13 +5,13 @@ import javax.swing.*;
  */
 public class Main {
     public static void main(String[] args) {
-        //QueryLogParser parser = new QueryLogParser("AOL-Clean-Data");
-        //parser.parse();
+        QueryLogParser parser = new QueryLogParser("AOL-Clean-Data");
+        parser.parse();
         SwingUtilities.invokeLater(new Runnable()
         {
             public void run()
             {
-                new QueryGui(/*parser*/);
+                new QueryGui(new SuggestionGenerator(parser.getTrie()));
             }
         });
     }

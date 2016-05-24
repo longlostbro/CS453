@@ -7,12 +7,13 @@ import java.awt.event.KeyEvent;
  * Created by longl on 5/24/2016.
  */
 public class QueryGui extends JFrame {
-    private QueryLogParser parser;
+    private final SuggestionGenerator generator;
     JTextArea resultsTextArea;
     JTextField queryTextField;
-    public QueryGui()
+    public QueryGui(SuggestionGenerator generator)
     {
         super("Query Generator");
+        this.generator = generator;
         //setLayout(new BorderLayout());
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         JPanel mainPanel = new JPanel();
@@ -25,7 +26,8 @@ public class QueryGui extends JFrame {
                 super.keyReleased(e);
                 if(e.getKeyCode() == KeyEvent.VK_SPACE || e.getKeyCode() == KeyEvent.VK_TAB || e.getKeyCode() == KeyEvent.VK_ENTER)
                 {
-                    JOptionPane.showMessageDialog(null, e.getKeyCode());
+                    //JOptionPane.showMessageDialog(null, e.getKeyCode());
+                    resultsTextArea.setText(generator.generateSuggestions(queryTextField.getText()));
                 }
             }
         });
@@ -36,4 +38,6 @@ public class QueryGui extends JFrame {
         setSize(600,400);
         setVisible(true);
     }
+
+
 }

@@ -34,6 +34,7 @@ public class QueryLogParser {
             {
                 parseDocument(file);
                 System.out.println(String.format("%s complete",file.getName()));
+                break;//TODO remove this
             }
         }
         System.out.println("COMPLETE!");
@@ -79,5 +80,9 @@ public class QueryLogParser {
         {
             e.printStackTrace();
         }
+    }
+
+    public Trie getTrie() {
+        return trie;
     }
 }
