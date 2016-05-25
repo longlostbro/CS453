@@ -34,7 +34,7 @@ public class QueryLogParser {
             {
                 parseDocument(file);
                 System.out.println(String.format("%s complete",file.getName()));
-                break;//TODO remove this
+                //break;//TODO remove this
             }
         }
         System.out.println("COMPLETE!");
