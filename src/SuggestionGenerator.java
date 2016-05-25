@@ -19,6 +19,8 @@ public class SuggestionGenerator {
 
     public String generateSuggestions(String query)
     {
+        if(query.contains("\\t"))
+            query.replaceAll("\\t"," ");
         query = removeBeginningStopWords(query);
         if(query.length() > 0)
         {
