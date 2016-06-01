@@ -2,7 +2,7 @@
   <artifact type="jar" name="Project2:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Project2_jar</output-path>
     <root id="archive" name="Project2.jar">
-      <element id="module-output" name="Project2" />
+      <element id="module-output" name="Project3" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar" path-in-jar="/" />
     </root>
   </artifact>
