@@ -7,14 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="676806b1-03c6-476a-afa4-d36d91c27aff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DocumentIndex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StopWords.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project3.iml" afterPath="$PROJECT_DIR$/Project3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LogManager.java" afterPath="$PROJECT_DIR$/src/LogManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DocumentIndex.java" afterPath="$PROJECT_DIR$/src/DocumentIndex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Soundexer.java" afterPath="$PROJECT_DIR$/src/Soundexer.java" />
     </list>
     <ignored path="Project1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +35,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="42" column="82" selection-start-line="42" selection-start-column="82" selection-end-line="42" selection-end-column="82" />
+            <state relative-caret-position="364">
+              <caret line="48" column="52" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/NoisyChannel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="458">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +73,21 @@
       <file leaf-file-name="DocumentIndex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DocumentIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="178" column="41" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
+            <state relative-caret-position="512">
+              <caret line="194" column="17" selection-start-line="194" selection-start-column="17" selection-end-line="194" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query_log.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query_log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,8 +111,8 @@
       <file leaf-file-name="LogManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LogManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+            <state relative-caret-position="271">
+              <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4055#4056#0" expanded="true" />
@@ -1023,7 +1028,7 @@
       <workItem from="1464183931299" duration="170000" />
       <workItem from="1464184548840" duration="1535000" />
       <workItem from="1464718800000" duration="13917000" />
-      <workItem from="1464741784410" duration="21727000" />
+      <workItem from="1464741784410" duration="23995000" />
     </task>
     <task id="LOCAL-00001" summary="Complete (unchecked)">
       <created>1462567912922</created>
@@ -1109,11 +1114,18 @@
       <option name="project" value="LOCAL" />
       <updated>1464748872185</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="COMPLETE!">
+      <created>1464764399706</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1464764399706</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89773000" />
+    <option name="totallyTimeSpent" value="92041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1127,7 +1139,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66088843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17984831" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1173,21 +1185,46 @@
     <MESSAGE value="suggestion genertion working without rankings" />
     <MESSAGE value="everything seems to be working" />
     <MESSAGE value="Steps 1 and 2 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Steps 1 and 2 complete" />
+    <MESSAGE value="COMPLETE!" />
+    <option name="LAST_COMMIT_MESSAGE" value="COMPLETE!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DocumentIndex.java</url>
-          <line>319</line>
+          <line>161</line>
           <properties />
-          <option name="timeStamp" value="61" />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DocumentIndex.java</url>
+          <line>177</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="62" />
+      <option name="time" value="67" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="getDensityMeasure(sentence, documentNumber)" language="JAVA" custom="" />
+        <watch expression="noisy.getErrorProbability(word, badWord)" language="JAVA" custom="" />
+        <watch expression="index.probabilityW(word)" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1395,14 +1432,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LogSession.java" />
-    <entry file="file://$PROJECT_DIR$/query_log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StopWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -1413,30 +1442,6 @@
             <element signature="e#330#338#0" expanded="true" />
             <element signature="e#1338#1339#0" expanded="true" />
             <element signature="e#1406#1407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NoisyChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LogManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4055#4056#0" expanded="true" />
-            <element signature="e#4112#4113#0" expanded="true" />
-            <element signature="e#4186#4187#0" expanded="true" />
-            <element signature="e#4249#4250#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1455,18 +1460,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DocumentIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="178" column="41" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
+        <state relative-caret-position="512">
+          <caret line="194" column="17" selection-start-line="194" selection-start-column="17" selection-end-line="194" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/query_log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NoisyChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LogManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4055#4056#0" expanded="true" />
+            <element signature="e#4112#4113#0" expanded="true" />
+            <element signature="e#4186#4187#0" expanded="true" />
+            <element signature="e#4249#4250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="42" column="82" selection-start-line="42" selection-start-column="82" selection-end-line="42" selection-end-column="82" />
+        <state relative-caret-position="364">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

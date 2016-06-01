@@ -147,15 +147,15 @@ public class DocumentIndex
         for (Map.Entry<Double, Integer> entry : scoredDocuments.entrySet())
         {
             i++;
-            Pair<String,String> snippet = getSnippet(query, entry.getValue());
-            System.out.println(String.format("Doc: %d\n%s%s%s", entry.getValue(), snippet.getKey(),"...",snippet.getValue()));
+            Pair<Pair<String,Double>,Pair<String,Double>> snippet = getSnippet(query, entry.getValue());
+            System.out.println(String.format("Doc: %d\n%s%s%s\n", entry.getValue(), snippet.getKey().getKey(),"...",snippet.getValue().getKey()));
             if (i == 6)
                 break;
         }
         System.out.println();
     }
 
-    private Pair<String,String> getSnippet(String query, Integer documentNumber)
+    private Pair<Pair<String,Double>,Pair<String,Double>> getSnippet(String query, Integer documentNumber)
     {
         try
         {
@@ -175,10 +175,10 @@ public class DocumentIndex
             for (int i = 0; i < sentences.length; i++)
             {
                 String sentence = sentences[i];
-                double densityMeasure = getDensityMeasure(sentence, documentNumber);
-                double longestContiguousRun = getLongestContiguousRun(query, sentence);
-                double uniqueTerms = getUniqueTerms(query, sentence);
-                double numQueryTerms = getNumQueryTerms(query, sentence);
+                double densityMeasure = getDensityMeasure(sentence.toLowerCase(), documentNumber);
+                double longestContiguousRun = getLongestContiguousRun(query, sentence.toLowerCase());
+                double uniqueTerms = getUniqueTerms(query, sentence.toLowerCase());
+                double numQueryTerms = getNumQueryTerms(query, sentence.toLowerCase());
                 double sentencePlacementScore = getSentencePlacementScore(i);
                 double score = densityMeasure+longestContiguousRun+uniqueTerms+numQueryTerms+sentencePlacementScore;
                 if(score > maxScore)
@@ -200,7 +200,7 @@ public class DocumentIndex
                 sentence1 = sentences[index].trim();
             if(secondIndex != -1)
                 sentence2 = sentences[secondIndex].trim();
-            return new Pair<>(sentence1,sentence2);
+            return new Pair<Pair<String,Double>,Pair<String,Double>>(new Pair<String,Double>(sentence1,maxScore),new Pair<String,Double>(sentence2,secondScore));
         } catch (Exception e)
         {
             e.printStackTrace();
@@ -211,15 +211,15 @@ public class DocumentIndex
     private double getSentencePlacementScore(int i)
     {
         if(i == 0)
-            return 3;
+            return 1.5;
         else if(i == 1)
-            return 2;
+            return 1.2;
         return 1;
     }
 
     private double getNumQueryTerms(String query, String sentence)
     {
-        String[] splitQuery = query.split("\\s");
+        String[] splitQuery = query.toLowerCase().split("\\s");
         Set<String> uniqueQuery = new HashSet<>();
         int count = 0;
         for(String word : splitQuery)
@@ -228,14 +228,14 @@ public class DocumentIndex
         }
         for(String queryWord : uniqueQuery)
         {
-            count += StringUtils.countMatches(sentence, queryWord);
+            count += StringUtils.countMatches(sentence.toLowerCase(), queryWord);
         }
         return count;
     }
 
     private double getUniqueTerms(String query, String sentence)
     {
-        String[] splitQuery = query.split("\\s");
+        String[] splitQuery = query.toLowerCase().split("\\s");
         Set<String> uniqueQuery = new HashSet<>();
         int count = 0;
         for(String word : splitQuery)
@@ -252,8 +252,8 @@ public class DocumentIndex
 
     private double getLongestContiguousRun(String query, String sentence)
     {
-        String[] querySplit = query.split("\\s");
-        String[] sentenceSplit = sentence.split("\\s");
+        String[] querySplit = query.toLowerCase().split("\\s");
+        String[] sentenceSplit = sentence.toLowerCase().split("\\s");
         int longestRun = 0;
         for(int i = 0; i < sentenceSplit.length; i++)
         {
@@ -281,7 +281,7 @@ public class DocumentIndex
     //significance factor
     private double getDensityMeasure(String sentence, int documentNumber)
     {
-        String[] words = sentence.split("\\s");
+        String[] words = sentence.toLowerCase().split("\\s");
         int startIndex = -1;
         int insignificantWordCount = 0;
         int lastSignificantWord = -1;
@@ -317,6 +317,7 @@ public class DocumentIndex
 
     private boolean wordIsSignificant(int documentNumber, String word)
     {
+        word = word.toLowerCase();
         int wordFrequency = 0;
         int totalWords = maxFrequency.get(documentNumber);
         wordFrequency = 0;
