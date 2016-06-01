@@ -144,4 +144,6 @@ public class LogManager
             return 0;
         return numerator/denominator;
     }
+
+
 }

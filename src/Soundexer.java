@@ -114,4 +114,9 @@ public class Soundexer
 
         return table[len1][len2];
     }
+
+    public String getCode(String bestWord)
+    {
+        return soundex.encode(bestWord);
+    }
 }
