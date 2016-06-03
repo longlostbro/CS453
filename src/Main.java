@@ -34,7 +34,9 @@ public class Main {
                     possibleWords = soundexer.getPossibleWords(badWord);
                     for (String word : possibleWords)
                     {
-                        double score = noisy.getErrorProbability(word, badWord) * index.probabilityW(word);
+                        double error = noisy.getErrorProbability(word, badWord);
+                        double pw = index.probabilityW(word);
+                        double score = error * pw;
                         if (score > bestScore)
                         {
                             bestWord = word;

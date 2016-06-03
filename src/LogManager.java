@@ -13,6 +13,7 @@ public class LogManager
 {
     Map<String, Map<String, Double>> correctWordToIncorrectWords;
     Map<String, Map<String, Double>> incorrectWordToCorrectWords;
+    Map<String, Map<String, Double>> incorrectWordToIncorrectWords;
     Map<Double, List<String[]>> sessions;
 
     public LogManager()
@@ -20,6 +21,7 @@ public class LogManager
         sessions = new HashMap<>();
         correctWordToIncorrectWords = new HashMap<>();
         incorrectWordToCorrectWords = new HashMap<>();
+        incorrectWordToIncorrectWords = new HashMap<>();
     }
 
     public void addSessionFromLine(String line)
@@ -59,15 +61,26 @@ public class LogManager
         {
             int incorrectWordCount = 0;
             Pair<String, String> correction = null;
+            Pair<String, String> badCorrection = null;
             for (int i = 0; i < query1.length; i++)
             {
                 //if this is the word being corrected
-                if (!isInDictionary(query1[i]) && isInDictionary(query2[i]))
+                if (!isInDictionary(query1[i]))
                 {
-                    correction = new Pair<>(query1[i], query2[i]);
-                    incorrectWordCount++;
-                    if (incorrectWordCount > 1)
-                        break;
+                    if(isInDictionary(query2[i]))
+                    {
+                        correction = new Pair<>(query1[i], query2[i]);
+                        incorrectWordCount++;
+                        if (incorrectWordCount > 1)
+                            break;
+                    }
+                    else
+                    {
+                        badCorrection = new Pair<>(query1[i], query2[i]);
+                        incorrectWordCount++;
+                        if (incorrectWordCount > 1)
+                            break;
+                    }
                 } else if (!query1[i].equals(query2[i]))
                 {
                     break;
@@ -110,6 +123,26 @@ public class LogManager
                     incorrectWordToCorrectWords.put(correction.getKey(), map);
                 }
             }
+            else if(incorrectWordCount == 1 && badCorrection != null && withinEditDistance(badCorrection.getKey(),badCorrection.getValue()))
+            {
+                if (incorrectWordToIncorrectWords.containsKey(badCorrection.getKey()))
+                {
+                    Map<String, Double> map = incorrectWordToIncorrectWords.get(badCorrection.getKey());
+                    if (map.containsKey(badCorrection.getValue()))
+                    {
+                        double value = map.get(badCorrection.getValue());
+                        map.put(badCorrection.getValue(), value + 1);
+                    } else
+                    {
+                        map.put(badCorrection.getValue(), 1.0);
+                    }
+                } else
+                {
+                    Map<String, Double> map = new HashMap<>();
+                    map.put(badCorrection.getValue(), 1.0);
+                    incorrectWordToIncorrectWords.put(badCorrection.getKey(), map);
+                }
+            }
         }
     }
 
@@ -128,10 +161,23 @@ public class LogManager
         double numerator = 0;
         if(incorrectWordToCorrectWords.containsKey(incorrectWord))
         {
-            Map<String,Double> count = incorrectWordToCorrectWords.get(incorrectWord);
-            if(count.containsKey(correctWord))
-                numerator = count.get(correctWord);
+            Map<String,Double> countMap = incorrectWordToCorrectWords.get(incorrectWord);
+            if(incorrectWordToIncorrectWords.containsKey(incorrectWord))
+            {
+                if(countMap.containsKey(correctWord))
+                    numerator += countMap.get(correctWord);
+                else
+                {
+                    for (Map.Entry<String, Double> map : incorrectWordToIncorrectWords.get(incorrectWord).entrySet())
+                    {
+                        if (incorrectWordToCorrectWords.containsKey(map.getKey()) && incorrectWordToCorrectWords.get(map.getKey()).containsKey(correctWord))
+                            numerator += incorrectWordToCorrectWords.get(map.getKey()).get(correctWord);
+                    }
+                }
+            }
+
         }
+        numerator *= 1/Soundexer.editDistance(correctWord,incorrectWord);
         double denominator = 1;
         if(correctWordToIncorrectWords.containsKey(correctWord))
         {

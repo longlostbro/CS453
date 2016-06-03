@@ -179,7 +179,7 @@ public class DocumentIndex
                 double longestContiguousRun = getLongestContiguousRun(query, sentence.toLowerCase());
                 double uniqueTerms = getUniqueTerms(query, sentence.toLowerCase());
                 double numQueryTerms = getNumQueryTerms(query, sentence.toLowerCase());
-                double sentencePlacementScore = getSentencePlacementScore(i);
+                double sentencePlacementScore = getSentencePlacementScore(i, sentence, query);
                 double score = densityMeasure+longestContiguousRun+uniqueTerms+numQueryTerms+sentencePlacementScore;
                 if(score > maxScore)
                 {
@@ -208,12 +208,25 @@ public class DocumentIndex
         return null;
     }
 
-    private double getSentencePlacementScore(int i)
+    private double getSentencePlacementScore(int i, String sentence, String query)
     {
-        if(i == 0)
-            return 1.5;
-        else if(i == 1)
-            return 1.2;
+        boolean containsAWord = false;
+        for(String queryWord : query.split("\\s"))
+        {
+            if(sentence.contains(queryWord))
+            {
+                containsAWord = true;
+                break;
+            }
+        }
+        if((containsAWord && i == 0) || (i != 0))
+        {
+            if (i == 0)
+                return 1.5;
+            else if (i == 1)
+                return 1.2;
+            return 1;
+        }
         return 1;
     }
 
