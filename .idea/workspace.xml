@@ -5,14 +5,343 @@
       <artifact name="Project2:jar" />
     </artifacts-to-build>
   </component>
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/query_log.txt" line="194" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="676806b1-03c6-476a-afa4-d36d91c27aff" name="Default" comment="">
+    <list default="true" id="676806b1-03c6-476a-afa4-d36d91c27aff" name="Default" comment="fixed a bug">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Project3.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dictionary.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/query_log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DocumentIndex.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LogManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/NoisyChannel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Soundexer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/StopWords.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stopwords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (1).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (10).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (100).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (101).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (102).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (103).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (104).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (105).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (106).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (107).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (108).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (109).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (11).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (110).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (111).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (112).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (113).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (114).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (115).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (116).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (117).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (118).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (119).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (12).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (120).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (121).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (122).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (123).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (124).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (125).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (126).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (127).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (128).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (129).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (13).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (130).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (131).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (132).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (133).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (134).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (135).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (136).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (137).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (138).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (139).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (14).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (140).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (141).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (142).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (143).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (144).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (145).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (146).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (147).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (148).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (149).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (15).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (150).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (151).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (152).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (153).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (154).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (155).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (156).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (157).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (158).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (159).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (16).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (160).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (161).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (162).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (163).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (164).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (165).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (166).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (167).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (168).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (169).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (17).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (170).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (171).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (172).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (173).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (174).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (175).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (176).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (177).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (178).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (179).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (18).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (180).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (181).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (182).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (183).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (184).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (185).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (186).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (187).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (188).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (189).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (19).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (190).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (191).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (192).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (193).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (194).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (195).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (196).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (197).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (198).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (199).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (2).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (20).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (200).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (201).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (202).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (203).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (204).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (205).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (206).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (207).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (208).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (209).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (21).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (210).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (211).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (212).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (213).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (214).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (215).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (216).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (217).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (218).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (219).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (22).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (220).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (221).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (222).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (223).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (224).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (225).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (226).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (227).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (228).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (229).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (23).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (230).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (231).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (232).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (233).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (234).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (235).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (236).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (237).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (238).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (239).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (24).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (240).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (241).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (242).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (243).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (244).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (245).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (246).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (247).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (248).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (249).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (25).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (250).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (251).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (252).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (253).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (254).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (255).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (256).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (257).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (258).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (259).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (26).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (260).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (261).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (262).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (263).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (264).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (265).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (266).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (267).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (268).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (269).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (27).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (270).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (271).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (272).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (273).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (274).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (275).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (276).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (277).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (278).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (279).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (28).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (280).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (281).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (282).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (283).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (284).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (285).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (286).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (287).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (288).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (289).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (29).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (290).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (291).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (292).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (293).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (294).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (295).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (296).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (297).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (298).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (299).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (3).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (30).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (300).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (301).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (302).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (303).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (304).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (305).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (306).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (307).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (308).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (309).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (31).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (310).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (311).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (312).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (313).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (314).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (315).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (316).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (317).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (318).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (319).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (32).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (320).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (321).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (322).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (33).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (34).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (35).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (36).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (37).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (38).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (39).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (4).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (40).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (41).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (42).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (43).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (44).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (45).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (46).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (47).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (48).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (49).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (5).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (50).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (51).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (52).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (53).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (54).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (55).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (56).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (57).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (58).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (59).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (6).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (60).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (61).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (62).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (63).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (64).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (65).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (66).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (67).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (68).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (69).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (7).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (70).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (71).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (72).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (73).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (74).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (75).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (76).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (77).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (78).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (79).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (8).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (80).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (81).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (82).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (83).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (84).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (85).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (86).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (87).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (88).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (89).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (9).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (90).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (91).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (92).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (93).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (94).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (95).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (96).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (97).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (98).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wiki/To_be_posted/Doc (99).txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Project2_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Project2_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_commons_codec_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_commons_codec_1_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DocumentIndex.java" afterPath="$PROJECT_DIR$/src/DocumentIndex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LogManager.java" afterPath="$PROJECT_DIR$/src/LogManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="Project1.iws" />
@@ -35,89 +364,15 @@
     <favorites_list name="Project1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Soundexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Soundexer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3475#3476#0" expanded="true" />
-                <element signature="e#3522#3523#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoisyChannel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NoisyChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DocumentIndex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DocumentIndex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4048">
-              <caret line="147" column="9" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StopWords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StopWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1338#1339#0" expanded="true" />
-                <element signature="e#1406#1407#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LogManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dictionary.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dictionary.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -165,17 +420,16 @@
         <option value="$PROJECT_DIR$/src/StopWords.java" />
         <option value="$PROJECT_DIR$/src/Soundexer.java" />
         <option value="$PROJECT_DIR$/src/DocumentIndex.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/query_log.txt" />
         <option value="$PROJECT_DIR$/src/LogManager.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -185,10 +439,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="2552" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -215,6 +469,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,9 +524,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,7 +532,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -698,36 +952,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -948,21 +1172,6 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
     </list>
@@ -1001,6 +1210,8 @@
       <workItem from="1464718800000" duration="13917000" />
       <workItem from="1464741784410" duration="24056000" />
       <workItem from="1464790388196" duration="4831000" />
+      <workItem from="1465572301674" duration="124000" />
+      <workItem from="1465670443966" duration="580000" />
     </task>
     <task id="LOCAL-00001" summary="Complete (unchecked)">
       <created>1462567912922</created>
@@ -1104,39 +1315,39 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96933000" />
+    <option name="totallyTimeSpent" value="97637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="2552" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3066089" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.102878466" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10254372" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3066089" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1170,20 +1381,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LogManager.java</url>
-          <line>161</line>
-          <properties />
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LogManager.java</url>
-          <line>190</line>
-          <properties />
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="74" />
     </breakpoint-manager>
     <watches-manager>
@@ -1207,11 +1404,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1225,11 +1418,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="29" column="66" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,11 +1429,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="29" column="66" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,11 +1440,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="29" column="66" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1270,11 +1451,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="29" column="66" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,7 +1484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,11 +1493,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1329,21 +1501,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1904">
           <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3475#3476#0" expanded="true" />
-            <element signature="e#3522#3523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,28 +1515,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DocumentIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4048">
-          <caret line="147" column="9" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2431">
+          <caret line="160" column="9" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NoisyChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
+        <state relative-caret-position="612">
           <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LogManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
+        <state relative-caret-position="1167">
+          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1416,7 +1578,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 2.7.2 (C:\Python27\python.exe) interpreter library</last-edited>
+          <last-edited>Python 2.7.11 (C:\Python27\python.exe) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1440,11 +1602,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Project3</last-edited>
+          <last-edited>Project4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
