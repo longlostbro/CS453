@@ -24,4 +24,11 @@ public class ClassProbabilities
         }
     }
 
+    public double getProbability(String className)
+    {
+        if(classToProbability.containsKey(className))
+            return classToProbability.get(className);
+        else
+            return -Integer.MAX_VALUE;
+    }
 }

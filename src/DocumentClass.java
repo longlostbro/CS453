@@ -10,10 +10,12 @@ import java.util.Set;
 public class DocumentClass
 {
     private String className;
+    Set<String> uniqueWords;
     private List<Document> unclassifiedSet;
     private List<Document> trainingSet;
     public DocumentClass(File folder)
     {
+        uniqueWords = new HashSet<>();
         trainingSet = new ArrayList<>();
         unclassifiedSet = new ArrayList<>();
         className = folder.getName();
@@ -21,10 +23,14 @@ public class DocumentClass
         for(int i = 0; i < documentFiles.length; i++)
         {
             File doc = documentFiles[i];
+            Document document = new Document(doc, className);
             if(i < .8*documentFiles.length)
-                trainingSet.add(new Document(doc, className));
+            {
+                uniqueWords.addAll(document.getWords());
+                trainingSet.add(document);
+            }
             else
-                unclassifiedSet.add(new Document(doc, className));
+                unclassifiedSet.add(document);
         }
     }
 
@@ -74,11 +80,6 @@ public class DocumentClass
 
     public Set<String> getUniqueWords()
     {
-        Set<String> uniqueWords = new HashSet<>();
-        for(Document doc : trainingSet)
-        {
-            uniqueWords.addAll(doc.getWords());
-        }
         return uniqueWords;
     }
 
