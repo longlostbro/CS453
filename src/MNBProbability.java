@@ -45,32 +45,27 @@ public class MNBProbability
             }
         }
         watch.split();
-        System.out.println("Finished indexing: " + (watch.getSplitTime() / 1000.0) + "s");
+        System.out.println("Finished indexing: " + watch.toSplitString());
         wordProbabilities = computeWordProbability(classes);
         watch.split();
-        System.out.println("Finished computing word probability: " + (watch.getSplitTime() / 1000.0) + "s");
+        System.out.println("Finished computing word probability: " + watch.toSplitString());
         classProbabilities = computeClassProbability(classes);
         watch.split();
-        System.out.println("Finished computing class probability: " + (watch.getSplitTime() / 1000.0) + "s");
-        int correctCount = 0;
-        int incorrectCount = 0;
+        System.out.println("Finished computing class probability: " + watch.toSplitString());
+        List<Document> testSet = new ArrayList<>();
+        List<String> labels = new ArrayList<>();
         for (DocumentClass documentClass : classes.values())
         {
             for (Document doc : documentClass.getUnclassifiedSet())
             {
-                String className = label(doc);
-                if (className.equals(doc.getClassification()))
-                {
-                    correctCount++;
-                } else
-                {
-                    incorrectCount++;
-                }
+                testSet.add(doc);
+                labels.add(label(doc));
             }
         }
-        System.out.println(String.format("%d/%d", correctCount, incorrectCount));
-        watch.stop();
-        System.out.println("Finished labeling: " + (watch.getTime() / 1000.0) + "s");
+        watch.split();
+        System.out.println("Finished labeling: " + watch.toSplitString() );
+        System.out.println("Accuracy: "+MNBEvaluation.accuracyMeasure(testSet, labels));
+        System.out.println("Finished labeling: " + watch.toSplitString() );
     }
 
     public double classProbability(String className)
@@ -222,12 +217,15 @@ public class MNBProbability
 
     public ClassProbabilities computeClassProbability(Map<String, DocumentClass> trainingSet)
     {
+        double totalProb = 0;
         ClassProbabilities probs = new ClassProbabilities();
         for (DocumentClass documentClass : trainingSet.values())
         {
             double docsInClass = documentClass.getDocumentCount();
             double totaldocs = getTotalDocumentCount();
-            probs.add(documentClass.getClassName(), (docsInClass / totaldocs));
+            double probability = (docsInClass / totaldocs);
+            probs.add(documentClass.getClassName(), probability);
+            totalProb+=probability;
         }
         return probs;
     }
@@ -242,21 +240,19 @@ public class MNBProbability
         return classProbabilities.getProbability(className);
     }
 
-    public String label(Document doc)
+    public String label(Document testDocument)
     {
-        Set<String> selection = doc.getWords();//featureSelection(classes, 1000);
+        Set<String> testDocumentWords = testDocument.getWords();
         List<Label> labels = new ArrayList<>();
         for (DocumentClass documentClass : classes.values())
         {
             String className = documentClass.getClassName();
             double classProbability = getClassProbability(className);
             BigDecimal probability = new BigDecimal(classProbability);
-            for (String word : selection)
+            for (String word : testDocumentWords)
             {
                 double wordProb = getWordProbability(word, className);
                 probability = probability.multiply(new BigDecimal(wordProb));
-                if (probability.equals(BigDecimal.ZERO))
-                    System.out.println("error");
             }
             labels.add(new Label(className, probability));
         }
