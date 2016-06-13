@@ -1,0 +1,120 @@
+Training Time: 12.96s
+M: 6200
+Feature Selection Time: 13.16s
+Accuracy: 0.6366351418616227
+Testing Time: 139.225s
+
+Training Time: 12.16s
+M: 12400
+Feature Selection Time: 13.205s
+Accuracy: 0.6331508213041314
+Testing Time: 156.378s
+
+Training Time: 11.501s
+M: 18600
+Feature Selection Time: 10.785s
+Accuracy: 0.6684917869586859
+Testing Time: 102.152s
+
+Training Time: 11.975s
+M: 24800
+Feature Selection Time: 14.08s
+Accuracy: 0.6545545047287208
+Testing Time: 174.78s
+
+Training Time: 11.913s
+M: 6200
+Feature Selection Time: 13.429s
+Accuracy: 0.6346441015430563
+Testing Time: 186.514s
+
+Training Time: 11.869s
+M: 12400
+Feature Selection Time: 13.344s
+Accuracy: 0.6510701841712294
+Testing Time: 182.581s
+
+Training Time: 11.761s
+M: 18600
+Feature Selection Time: 12.676s
+Accuracy: 0.6411149825783972
+Testing Time: 150.98s
+
+Training Time: 11.578s
+M: 24800
+Feature Selection Time: 13.472s
+Accuracy: 0.6450970632155301
+Testing Time: 194.902s
+
+Training Time: 11.862s
+M: 6200
+Feature Selection Time: 13.134s
+Accuracy: 0.6505724240915879
+Testing Time: 197.89s
+
+Training Time: 12.249s
+M: 12400
+Feature Selection Time: 15.728s
+Accuracy: 0.6510701841712294
+Testing Time: 206.618s
+
+Training Time: 12.181s
+M: 18600
+Feature Selection Time: 13.05s
+Accuracy: 0.6610253857640617
+Testing Time: 159.959s
+
+Training Time: 13.372s
+M: 24800
+Feature Selection Time: 13.812s
+Accuracy: 0.6406172224987556
+Testing Time: 172.371s
+
+Training Time: 12.646s
+M: 6200
+Feature Selection Time: 13.402s
+Accuracy: 0.6495769039323046
+Testing Time: 178.715s
+
+Training Time: 11.971s
+M: 12400
+Feature Selection Time: 13.783s
+Accuracy: 0.6346441015430563
+Testing Time: 165.714s
+
+Training Time: 12.279s
+M: 18600
+Feature Selection Time: 13.785s
+Accuracy: 0.6460925833748133
+Testing Time: 154.836s
+
+Training Time: 12.872s
+M: 24800
+Feature Selection Time: 13.8s
+Accuracy: 0.6655052264808362
+Testing Time: 170.57s
+
+Training Time: 12.715s
+M: 6200
+Feature Selection Time: 13.498s
+Accuracy: 0.6396217023394724
+Testing Time: 154.492s
+
+Training Time: 12.08s
+M: 12400
+Feature Selection Time: 13.968s
+Accuracy: 0.6505724240915879
+Testing Time: 146.901s
+
+Training Time: 12.506s
+M: 18600
+Feature Selection Time: 15.088s
+Accuracy: 0.6450970632155301
+Testing Time: 188.084s
+
+Training Time: 12.607s
+M: 24800
+Feature Selection Time: 13.253s
+Accuracy: 0.6550522648083623
+Testing Time: 159.924s
+
