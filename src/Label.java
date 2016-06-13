@@ -16,6 +16,6 @@ public class Label implements Comparable<Label>
     @Override
     public int compareTo(Label o)
     {
-        return Double.compare(probability,o.probability);
+        return Double.compare(o.probability,probability);
     }
 }
