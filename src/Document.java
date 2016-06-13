@@ -32,7 +32,6 @@ public class Document
             PorterStemmer stemmer = new PorterStemmer();
             Scanner inScanner=new Scanner(new FileReader(file));
             inScanner.useDelimiter("\n\n");
-            inScanner.next();
             List<String> stopwords = Files.readAllLines(Paths.get("Resources/stopwords.txt"));
             String domainPattern = "[a-z0-9\\-\\.]+\\.(com|org|net|mil|edu|(co\\.[a-z].))";
             Pattern pFind = Pattern.compile(domainPattern);

@@ -1,6 +1,0 @@
-Training Time: 9.07s
-M: 0
-Feature Selection Time: 0.085s
-Accuracy: 0.6488244122061031
-Testing Time: 118.957s
-

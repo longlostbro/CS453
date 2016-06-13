@@ -21,12 +21,12 @@ public class Main
             FileWriter fw = new FileWriter("output4.txt");
             List<Integer> tests = new ArrayList<>();
             tests.add(0);
-            /*tests.add(6200);
+            tests.add(6200);
             tests.add(12400);
             tests.add(18600);
-            tests.add(24800);*/
+            tests.add(24800);
             StopWatch watch = new StopWatch();
-            for (int i = 0; i < 1; i++)
+            for (int i = 0; i < 5; i++)
             {
                 for (int m : tests)
                 {
