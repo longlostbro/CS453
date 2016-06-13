@@ -22,8 +22,6 @@ public class MNBProbability
     {
         uniqueWords = new HashSet<>();
         wordFrequency = new HashMap<>();
-        StopWatch watch = new StopWatch();
-        watch.start();
         classes = new HashMap<>();
         File folder = new File(path_to_folder);
         for (final File classification : folder.listFiles())
@@ -44,38 +42,7 @@ public class MNBProbability
                 }
             }
         }
-        /*for(DocumentClass documentClass : classes.values())
-        {
-            for (Document doc : documentClass.getTrainingSet())
-            {
-                for(String word : doc.getWords())
-                {
-                    System.out.println(word + ": " + IG(word));
-                }
-            }
-        }*/
-        watch.split();
-        System.out.println("Finished indexing: " + watch.toSplitString());
-        wordProbabilities = computeWordProbability(classes);
-        watch.split();
-        System.out.println("Finished computing word probability: " + watch.toSplitString());
-        classProbabilities = computeClassProbability(classes);
-        watch.split();
-        System.out.println("Finished computing class probability: " + watch.toSplitString());
-        List<Document> testSet = new ArrayList<>();
-        List<String> labels = new ArrayList<>();
-        for (DocumentClass documentClass : classes.values())
-        {
-            for (Document doc : documentClass.getUnclassifiedSet())
-            {
-                testSet.add(doc);
-                labels.add(label(doc));
-            }
-        }
-        watch.split();
-        System.out.println("Finished labeling: " + watch.toSplitString() );
-        System.out.println("Accuracy: "+MNBEvaluation.accuracyMeasure(testSet, labels));
-        System.out.println("Finished: " + watch.toSplitString() );
+
     }
 
     public double classProbability(String className)
