@@ -14,8 +14,9 @@ public class Document
 {
     private String classification;
     private String name;
-    private HashMap<String, Integer> wordToCount;
+    public HashMap<String, Integer> wordToCount;
     private int totalWordCount = 0;
+
 
     public Set<String> getWords()
     {
@@ -32,7 +33,7 @@ public class Document
             PorterStemmer stemmer = new PorterStemmer();
             Scanner inScanner=new Scanner(new FileReader(file));
             inScanner.useDelimiter("\n\n");
-            //inScanner.next();
+            inScanner.next();
             List<String> stopwords = Files.readAllLines(Paths.get("Resources/stopwords.txt"));
             String domainPattern = "[a-z0-9\\-\\.]+\\.(com|org|net|mil|edu|(co\\.[a-z].))";
             Pattern pFind = Pattern.compile(domainPattern);
@@ -47,7 +48,7 @@ public class Document
                     while(token.hasMoreTokens())
                     {
                         String word = token.nextToken();
-                        if(!stopwords.contains(word)||stopwords.contains(word))
+                        if(!stopwords.contains(word))
                         {
                             if(word.length() > 2)
                                 word = stemmer.stem(word);
@@ -63,26 +64,6 @@ public class Document
                     }
                 }
             }
-
-            /*BufferedReader in = new BufferedReader(new FileReader(file.getAbsoluteFile()));
-            StringBuilder everything = new StringBuilder();
-            String line;
-            while ((line = in.readLine()) != null)
-            {
-                everything.append(line + " ");
-            }
-            for(String word : Arrays.asList(everything.toString().replaceAll(System.getProperty("line.separator"), " ").replaceAll("[^a-zA-Z ]", "").toLowerCase().replaceAll("\\p{Punct}+", "").trim().split("\\s+")))
-            {
-                totalWordCount++;
-                if(wordToCount.containsKey(word))
-                {
-                    wordToCount.put(word,wordToCount.get(word)+1);
-                }
-                else
-                {
-                    wordToCount.put(word,1);
-                }
-            }*/
         }
         catch (Exception e)
         {

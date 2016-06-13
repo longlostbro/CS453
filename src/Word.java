@@ -1,7 +1,7 @@
 /**
  * Created by longl on 6/11/2016.
  */
-public class Word implements Comparable
+public class Word implements Comparable<Word>
 {
     private String word;
     private double score;
@@ -22,10 +22,8 @@ public class Word implements Comparable
     }
 
     @Override
-    public int compareTo(Object o)
+    public int compareTo(Word o)
     {
-        if(o instanceof Word)
-            return Double.compare(score,((Word)o).getScore());
-        return -1;
+        return Double.compare(o.score,score);
     }
 }

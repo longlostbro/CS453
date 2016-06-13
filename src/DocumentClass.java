@@ -13,6 +13,7 @@ public class DocumentClass
     private List<Document> unclassifiedSet;
     private List<Document> trainingSet;
     private int totalWordCount;
+    public Map<String, Integer> wordToDocumentCount = new HashMap<>();
 
     public DocumentClass(File folder)
     {
@@ -31,6 +32,17 @@ public class DocumentClass
                 totalWordCount++;
                 uniqueWords.addAll(document.getWords());
                 trainingSet.add(document);
+                for(String word : document.getWords())
+                {
+                    if(wordToDocumentCount.containsKey(word))
+                    {
+                        wordToDocumentCount.put(word,wordToDocumentCount.get(word)+1);
+                    }
+                    else
+                    {
+                        wordToDocumentCount.put(word,1);
+                    }
+                }
             }
             else
                 unclassifiedSet.add(document);
@@ -58,27 +70,13 @@ public class DocumentClass
 
     public int getNumberOfDocumentsWithWord(String word)
     {
-        int count = 0;
-        for(Document doc : trainingSet)
-        {
-            if(doc.hasWord(word))
-            {
-                count++;
-            }
-        }
-        return count;
+        if(wordToDocumentCount.containsKey(word))
+            return wordToDocumentCount.get(word);
+        return 0;
     }
     public int getNumberOfDocumentsWithoutWord(String word)
     {
-        int count = 0;
-        for(Document doc : trainingSet)
-        {
-            if(!doc.hasWord(word))
-            {
-                count++;
-            }
-        }
-        return count;
+        return getDocumentCount()-getNumberOfDocumentsWithWord(word);
     }
 
     public Set<String> getUniqueWords()
