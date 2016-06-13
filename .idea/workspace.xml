@@ -8,11 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="676806b1-03c6-476a-afa4-d36d91c27aff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Document.java" afterPath="$PROJECT_DIR$/src/Document.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DocumentClass.java" afterPath="$PROJECT_DIR$/src/DocumentClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MNBProbability.java" afterPath="$PROJECT_DIR$/src/MNBProbability.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WordProbabilities.java" afterPath="$PROJECT_DIR$/src/WordProbabilities.java" />
     </list>
     <ignored path="Project1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,8 +80,8 @@
       <file leaf-file-name="MNBProbability.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MNBProbability.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="163" column="69" selection-start-line="163" selection-start-column="65" selection-end-line="163" selection-end-column="69" />
+            <state relative-caret-position="1246">
+              <caret line="76" column="88" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1015,7 +1010,7 @@
       <workItem from="1464790388196" duration="4831000" />
       <workItem from="1465572301674" duration="124000" />
       <workItem from="1465670443966" duration="31750000" />
-      <workItem from="1465798754292" duration="25631000" />
+      <workItem from="1465798754292" duration="25911000" />
     </task>
     <task id="LOCAL-00001" summary="Complete (unchecked)">
       <created>1462567912922</created>
@@ -1178,11 +1173,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465837926927</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="trying to find bug">
+      <created>1465841435814</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1465841435814</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154438000" />
+    <option name="totallyTimeSpent" value="154718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="2576" height="1416" extended-state="6" />
@@ -1253,7 +1255,8 @@
     <MESSAGE value="first print" />
     <MESSAGE value="done" />
     <MESSAGE value="added results" />
-    <option name="LAST_COMMIT_MESSAGE" value="added results" />
+    <MESSAGE value="trying to find bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to find bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1458,8 +1461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MNBProbability.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="163" column="69" selection-start-line="163" selection-start-column="65" selection-end-line="163" selection-end-column="69" />
+        <state relative-caret-position="1246">
+          <caret line="76" column="88" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
