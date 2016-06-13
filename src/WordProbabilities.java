@@ -18,8 +18,6 @@ public class WordProbabilities
 
     public void add(String word, String className, double probability)
     {
-        if(probability == 0)
-            System.out.println("error");
         if(wordToClassToProbability.containsKey(word))
         {
             wordToClassToProbability.get(word).put(className, probability);
@@ -46,8 +44,6 @@ public class WordProbabilities
                 value = wordToClassToProbability.get(word).get("default");
             }
         }
-        if(value == 0)
-            System.out.println("error");
         return value;
     }
 }

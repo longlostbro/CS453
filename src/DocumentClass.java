@@ -48,11 +48,6 @@ public class DocumentClass
                 unclassifiedSet.add(document);
         }
     }
-
-    public List<Document> getTrainingSet()
-    {
-        return trainingSet;
-    }
     public List<Document> getUnclassifiedSet()
     {
         return unclassifiedSet;
@@ -82,16 +77,6 @@ public class DocumentClass
     public Set<String> getUniqueWords()
     {
         return uniqueWords;
-    }
-
-    public int getWordFrequency(String word)
-    {
-        int count = 0;
-        for(Document doc : trainingSet)
-        {
-            count += doc.getCountForWord(word);
-        }
-        return count;
     }
 
     public int getTotalWordCount()

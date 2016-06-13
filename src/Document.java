@@ -14,20 +14,19 @@ public class Document
 {
     private String classification;
     private String name;
-    public HashMap<String, Integer> wordToCount;
+    public Set<String> words = new HashSet<>();
     private int totalWordCount = 0;
 
 
     public Set<String> getWords()
     {
-        return wordToCount.keySet();
+        return words;
     }
 
     public Document(File file, String classification)
     {
         name = file.getName();
         this.classification = classification;
-        wordToCount = new HashMap<>();
         try
         {
             PorterStemmer stemmer = new PorterStemmer();
@@ -53,13 +52,7 @@ public class Document
                             if(word.length() > 2)
                                 word = stemmer.stem(word);
                             totalWordCount++;
-                            if (wordToCount.containsKey(word))
-                            {
-                                wordToCount.put(word, wordToCount.get(word) + 1);
-                            } else
-                            {
-                                wordToCount.put(word, 1);
-                            }
+                            words.add(word);
                         }
                     }
                 }
@@ -76,15 +69,6 @@ public class Document
         return name;
     }
 
-    public int getCountForWord(String word)
-    {
-        if(wordToCount.containsKey(word))
-        {
-            return wordToCount.get(word);
-        }
-        return 0;
-    }
-
     public int getTotalWordCount()
     {
         return totalWordCount;
@@ -92,7 +76,7 @@ public class Document
 
     public int getUniqueWordCount()
     {
-        return wordToCount.keySet().size();
+        return words.size();
     }
 
     public String getClassification()
@@ -102,6 +86,6 @@ public class Document
 
     public boolean hasWord(String word)
     {
-        return wordToCount.containsKey(word);
+        return words.contains(word);
     }
 }

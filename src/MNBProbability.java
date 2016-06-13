@@ -15,13 +15,11 @@ public class MNBProbability
     Map<String, DocumentClass> classes;
     ClassProbabilities classProbabilities;
     WordProbabilities wordProbabilities;
-    Map<String, Integer> wordFrequency;
     Set<String> uniqueWords;
 
     public MNBProbability(String path_to_folder)
     {
         uniqueWords = new HashSet<>();
-        wordFrequency = new HashMap<>();
         classes = new HashMap<>();
         File folder = new File(path_to_folder);
         for (final File classification : folder.listFiles())
@@ -31,16 +29,6 @@ public class MNBProbability
             classes.put(documentClass.getClassName(), documentClass);
             Set<String> classUniqueWords = documentClass.getUniqueWords();
             uniqueWords.addAll(classUniqueWords);
-            for (String word : classUniqueWords)
-            {
-                if (wordFrequency.containsKey(word))
-                {
-                    wordFrequency.put(word, wordFrequency.get(word) + documentClass.getWordFrequency(word));
-                } else
-                {
-                    wordFrequency.put(word, documentClass.getWordFrequency(word));
-                }
-            }
         }
 
     }
@@ -137,8 +125,6 @@ public class MNBProbability
             String className = documentClass.getClassName();
             double probabilityOfClass = classProbability(className);
             sumPcLogPc -= probabilityOfClass * Math.log(probabilityOfClass);
-            //System.out.println(String.format("%f",-probabilityOfClass*Math.log(probabilityOfClass)));
-            //System.out.print(String.format("-%flog%f",probabilityOfClass,probabilityOfClass));
         }
         //System.out.println();
         for (DocumentClass documentClass : classes.values())
@@ -148,9 +134,6 @@ public class MNBProbability
             double probOfClassGivenNotWord = probabilityOfClassGivenNotWord(className, word);
             sumPcWLogPcW += wordProbability(word) * probOfClassGivenWord * safeLog(probOfClassGivenWord);
             sumPcNWLogPcNW += notWordProbability(word) * probOfClassGivenNotWord * safeLog(probOfClassGivenNotWord);
-            //System.out.print(String.format("+%f*%flog%f",wordProbability(word),probOfClassGivenWord,probOfClassGivenWord));
-            //System.out.println();
-            //System.out.println(String.format("+%f*%flog%f",notWordProbability(word),probOfClassGivenNotWord,probOfClassGivenNotWord));
         }
         result = sumPcLogPc + sumPcWLogPcW + sumPcNWLogPcNW;
         return result;
@@ -161,12 +144,6 @@ public class MNBProbability
         return uniqueWords;
     }
 
-    public Integer getWordFrequency(String word)
-    {
-        if (wordFrequency.containsKey(word))
-            return wordFrequency.get(word);
-        return 0;
-    }
 
     public WordProbabilities computeWordProbability(Map<String, DocumentClass> trainingSet)
     {
