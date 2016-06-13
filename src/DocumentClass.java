@@ -1,8 +1,7 @@
+import org.apache.commons.lang.text.StrBuilder;
+
 import java.io.File;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by longl on 6/11/2016.
@@ -13,19 +12,23 @@ public class DocumentClass
     Set<String> uniqueWords;
     private List<Document> unclassifiedSet;
     private List<Document> trainingSet;
+    private int totalWordCount;
+
     public DocumentClass(File folder)
     {
         uniqueWords = new HashSet<>();
         trainingSet = new ArrayList<>();
         unclassifiedSet = new ArrayList<>();
         className = folder.getName();
-        File[] documentFiles = folder.listFiles();
-        for(int i = 0; i < documentFiles.length; i++)
+        List<File> documentFiles = Arrays.asList(folder.listFiles());
+        Collections.shuffle(documentFiles);
+        for(int i = 0; i < documentFiles.size(); i++)
         {
-            File doc = documentFiles[i];
+            File doc = documentFiles.get(i);
             Document document = new Document(doc, className);
-            if(i < .8*documentFiles.length)
+            if(i+1 < .8*documentFiles.size())
             {
+                totalWordCount++;
                 uniqueWords.addAll(document.getWords());
                 trainingSet.add(document);
             }
@@ -91,5 +94,10 @@ public class DocumentClass
             count += doc.getCountForWord(word);
         }
         return count;
+    }
+
+    public int getTotalWordCount()
+    {
+        return totalWordCount;
     }
 }

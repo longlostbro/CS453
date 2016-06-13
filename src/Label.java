@@ -6,8 +6,8 @@ import java.math.BigDecimal;
 public class Label implements Comparable<Label>
 {
     String className;
-    BigDecimal probability;
-    public Label(String className, BigDecimal probability)
+    double probability;
+    public Label(String className, double probability)
     {
         this.className = className;
         this.probability = probability;
@@ -16,6 +16,6 @@ public class Label implements Comparable<Label>
     @Override
     public int compareTo(Label o)
     {
-        return probability.compareTo(o.probability);
+        return Double.compare(probability,o.probability);
     }
 }

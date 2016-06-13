@@ -4,6 +4,7 @@
 public class Main {
     public static void main(String[] args) {
         MNBProbability manager = new MNBProbability("Resources/20NG");
+        //MNBProbability manager = new MNBProbability("Resources/Test");
         //System.out.println(manager.IG("cheap"));
         //System.out.println(String.format("cheap: %f\nbuy: %f\nbanking: %f\ndinner: %f\nthe: %f",manager.IG("cheap"),manager.IG("buy"),manager.IG("banking"),manager.IG("dinner"),manager.IG("the")));
     }

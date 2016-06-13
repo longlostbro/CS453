@@ -44,6 +44,16 @@ public class MNBProbability
                 }
             }
         }
+        /*for(DocumentClass documentClass : classes.values())
+        {
+            for (Document doc : documentClass.getTrainingSet())
+            {
+                for(String word : doc.getWords())
+                {
+                    System.out.println(word + ": " + IG(word));
+                }
+            }
+        }*/
         watch.split();
         System.out.println("Finished indexing: " + watch.toSplitString());
         wordProbabilities = computeWordProbability(classes);
@@ -65,7 +75,7 @@ public class MNBProbability
         watch.split();
         System.out.println("Finished labeling: " + watch.toSplitString() );
         System.out.println("Accuracy: "+MNBEvaluation.accuracyMeasure(testSet, labels));
-        System.out.println("Finished labeling: " + watch.toSplitString() );
+        System.out.println("Finished: " + watch.toSplitString() );
     }
 
     public double classProbability(String className)
@@ -199,10 +209,9 @@ public class MNBProbability
         {
             for (DocumentClass documentClass : trainingSet.values())
             {
-                double frequencyInClass = getWordFrequency(word);
-                double totalInClass = documentClass.getUniqueWords().size();
-                double uniqueWordsTotal = totalUniqueWords.size();
-                double probability = (frequencyInClass + 1.0) / (totalInClass + uniqueWordsTotal);
+                double numDocsInClassContainingWord = documentClass.getNumberOfDocumentsWithWord(word);
+                double numberDocsInClass = documentClass.getDocumentCount();
+                double probability = (numDocsInClassContainingWord + 1.0) / (numberDocsInClass + 1.0);
                 probs.add(word, documentClass.getClassName(), probability);
             }
         }
@@ -217,7 +226,6 @@ public class MNBProbability
 
     public ClassProbabilities computeClassProbability(Map<String, DocumentClass> trainingSet)
     {
-        double totalProb = 0;
         ClassProbabilities probs = new ClassProbabilities();
         for (DocumentClass documentClass : trainingSet.values())
         {
@@ -225,7 +233,6 @@ public class MNBProbability
             double totaldocs = getTotalDocumentCount();
             double probability = (docsInClass / totaldocs);
             probs.add(documentClass.getClassName(), probability);
-            totalProb+=probability;
         }
         return probs;
     }
@@ -248,11 +255,13 @@ public class MNBProbability
         {
             String className = documentClass.getClassName();
             double classProbability = getClassProbability(className);
-            BigDecimal probability = new BigDecimal(classProbability);
-            for (String word : testDocumentWords)
+            double probability = classProbability;
+            for(String word : getUniqueWords())
             {
-                double wordProb = getWordProbability(word, className);
-                probability = probability.multiply(new BigDecimal(wordProb));
+                if(testDocumentWords.contains(word))
+                    probability*=getWordProbability(word, className);
+                else
+                    probability*=(1.0-getWordProbability(word, className));
             }
             labels.add(new Label(className, probability));
         }
